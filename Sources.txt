@@ -2,6 +2,7 @@ Source lists for my hosts files:
 
 https://hblock.molinero.dev/hosts
 https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hosts-VN
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 https://raw.githubusercontent.com/lightswitch05/hosts/master/ads-and-tracking-extended.txt
 https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt
 https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/hosts.txt
@@ -26,6 +27,7 @@ https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Xtreme.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
 
 Credits:
+STeven Black > Steven Black: https://github.com/StevenBlack
 GoodByeAds > Jerryn70: https://github.com/jerryn70
 HBlock > Héctor Molinero Fernández: https://github.com/hectorm
 HostsVN > Bigdragon: https://github.com/bigdargon
