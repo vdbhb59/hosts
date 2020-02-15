@@ -27,7 +27,7 @@ https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Xtreme.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
 
 Credits:
-STeven Black > Steven Black: https://github.com/StevenBlack
+Steven Black > Steven Black: https://github.com/StevenBlack
 GoodByeAds > Jerryn70: https://github.com/jerryn70
 HBlock > Héctor Molinero Fernández: https://github.com/hectorm
 HostsVN > Bigdragon: https://github.com/bigdargon
