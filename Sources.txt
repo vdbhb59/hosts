@@ -1,0 +1,41 @@
+Source lists for my hosts files:
+
+https://hblock.molinero.dev/hosts
+https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hosts-VN
+https://raw.githubusercontent.com/lightswitch05/hosts/master/ads-and-tracking-extended.txt
+https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt
+https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/hosts.txt
+https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts
+https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt
+https://badmojr.github.io/1Hosts/Pro/hosts.txt
+https://raw.githubusercontent.com/yous/YousList/master/hosts.txt
+https://raw.githubusercontent.com/vokins/yhosts/master/hosts.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Samsung-AdBlock.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-YouTube-AdBlock.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-LeEco-Extension.txt
+https://gist.githubusercontent.com/marshymarsh/5c34b5a6530d46fa0f3076bed52d293a/raw/aa0a0782426582dfe312da7f3486c3dae680d9da/BlockYouTubeHostsFile
+https://gist.githubusercontent.com/idoo/dc809ae93a3da54fb24c92185dfffffa/raw/d19b6edd63cbd9154d20dce782198920c3bb770e/hosts-yt-ads
+
+
+Resultant Hosts:
+
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Ultimate.txt
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Xtreme.txt
+https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
+
+Credits:
+GoodByeAds > Jerryn70: https://github.com/jerryn70
+HBlock > Héctor Molinero Fernández: https://github.com/hectorm
+HostsVN > Bigdragon: https://github.com/bigdargon
+Master Hosts > Daniel: https://github.com/lightswitch05
+KAD Hosts > PolishFiltersTeam: https://github.com/PolishFiltersTeam
+Ethereum Phishing > MetaMask: https://github.com/MetaMask
+Badd-Boyz-Hosts > Mitchell Krog: https://github.com/mitchellkrogza
+CoinMiner > Anudeep: https://github.com/anudeepND
+Pro Hosts (BadMojr) > Imre Kristoffer Eilertsen (Dandelion Sprout): https://github.com/DandelionSprout
+Master Hosts > Chayoung You: https://github.com/Yous
+Master Hosts > Vokins: https://github.com/vokins
+YouTube Hosts > MarshyMarsh: https://github.com/marshymarsh
+YouTube Hosts > Ivan Verevkin: https://github.com/idoo
