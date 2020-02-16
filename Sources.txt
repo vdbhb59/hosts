@@ -41,3 +41,5 @@ Master Hosts > Chayoung You: https://github.com/Yous
 Master Hosts > Vokins: https://github.com/vokins
 YouTube Hosts > MarshyMarsh: https://github.com/marshymarsh
 YouTube Hosts > Ivan Verevkin: https://github.com/idoo
+
+License: MIT
