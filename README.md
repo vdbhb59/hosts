@@ -10,7 +10,7 @@ Following are the list of files present within the repository:
 02. Xtreme > Contains blockers for Samsung devices as well. However, limited in hosts.
 I am not planning on updating this too much, but I will try my level best.
 
-03. YouTube > Special hosts for YouTube adverytisements.
+03. YouTube > Special hosts for YouTube advertisements.
 Server uses **`s.ytimg.com`** and **`manifest.googlevideo.com`** to push advertisements.
 Of late, **`youtube-nocookie.com`** is being used by Alphabet Incorporation to push advertisements, as well as video content, and thus may not work unless this is whitelisted. I have whitelisted it as of now.
 
