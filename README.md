@@ -26,6 +26,8 @@ In case the above is not working, you can try one of the following as well:
 
 [`SwitchHosts`](https://oldj.github.io/SwitchHosts) or [`HostsFileEditor`](https://github.com/scottlerch/HostsFileEditor)
 
+Use installer [`hostsinstaller`](https://github.com/vdbhb59/hosts/blob/master/hostsinstall.bat) with administrative rights in Windows.
+
 **How to disable DNS CACHE services on Windows?**
 
 1) Hit Win+R & type `regedit` & press enter.
