@@ -1,5 +1,5 @@
 # hosts
-Curated lists of hosts files with various domain blocks. See "Source" text file for credits and source list.
+Curated lists of hosts files with various domain blocks. See "Source" text file for credits and source list. Lot of hosts are based on my own digging.
 
 Following are the list of files present within the repository:
 
