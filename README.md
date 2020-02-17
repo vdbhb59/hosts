@@ -22,6 +22,18 @@ I am working on a systmd to make it work nightly.
 
 ***Windows:*** Users for Windows would find it easy to use with [`Hostman`](http://www.abelhadigital.com/hostsman/), a software to manage host file.
 
+In case the above is not working, you can try one of the following as well:
+
+[`SwitchHosts`](https://oldj.github.io/SwitchHosts) or [`HostsFileEditor`](https://github.com/scottlerch/HostsFileEditor)
+
+# How to disable DNS CACHE services on Windows:
+
+1) Hit Win+R & type `regedit` & press enter.
+
+2) Go to `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Dnscache`, and locate the "Start" registry key. Now change its value from 2 (Automatic) to 4 (Disabled)
+
+3) Restart computer once & now change your host file with bigger SIZE.
+
 ***Android:*** For non-rooted devices, GoodbyeAds can be used with [`DNS66`](https://f-droid.org/en/packages/org.jak_linux.dns66/), [`Blokada`](https://f-droid.org/en/packages/org.blokada.alarm/), [`Personal DNS Filter`](https://www.zenz-solutions.de/personaldnsfilter/) or [`Nebulo`](https://nebulo.app/source).
 The above softwares are free and open-source ad-blockers.
 
@@ -67,11 +79,15 @@ https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
 - __Facebook main app__
 - __Facebook Lite Messenger__
 
-## Recommended FB Apps
+## Recommended Apps
 For those who still are hardcore facebook users, you can try Frost from F-Droid.
 Frost for Facebook (A fast and extensive third party wrapper for Facebook.)
 ```
 https://f-droid.org/app/com.pitchedapps.frost
+```
+For YT users, use NewPipe. It is fully open sourced.
+```
+https://f-droid.org/app/org.schabi.newpipe
 ```
 
 ## License
