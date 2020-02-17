@@ -1,8 +1,11 @@
 # Created By: ViUsh (@vdbhb59)
-# Last updated: Sun Feb 16 14:19:37 UTC 2020
+# Last updated: Mon Feb 17 13:37:06 UTC 2020
 # Blocked domains: 32850
 # YouTube
 # Source: https://raw.githubusercontent.com/vdbhb59/hosts/master/Sources.txt
+# Ultimate Result: https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Ultimate.txt
+# Xtended Result: https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Xtreme.txt
+# YouTube Result: https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
 
 # <header>
 127.0.0.1 localhost vdbhb59

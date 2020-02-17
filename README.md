@@ -14,6 +14,8 @@ I am not planning on updating this too much, but I will try my level best.
 Server uses **`s.ytimg.com`** and **`manifest.googlevideo.com`** to push advertisements.
 Of late, **`youtube-nocookie.com`** is being used by Alphabet Incorporation to push advertisements, as well as video content, and thus may not work unless this is whitelisted. I have whitelisted it as of now.
 
+04. **Ads Block List** > Contains special wildcard based (not wildcards itself) entries, which blocks device wide advertisements, including applications in-ads as well. Contains **`graph.facebook.`** as well for facebook wide ads. Also contains the most notorious **`inmobi`** advert blocking. This list is added by default in the **`Ultimate`** list.
+
 I am working on a systmd to make it work nightly.
 
 ## Supported Operating Systems
