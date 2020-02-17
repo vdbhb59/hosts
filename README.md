@@ -67,7 +67,6 @@ https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
 For those who still are hardcore facebook users, you can try Frost from F-Droid.
 Frost for Facebook (A fast and extensive third party wrapper for Facebook.)
 ```
-
 https://f-droid.org/app/com.pitchedapps.frost
 ```
 
