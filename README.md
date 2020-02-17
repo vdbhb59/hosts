@@ -63,6 +63,14 @@ https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
 - __Facebook main app__
 - __Facebook Lite Messenger__
 
+## Recommended FB Apps
+For those who still are hardcore facebook users, you can try Frost from F-Droid.
+Frost for Facebook (A fast and extensive third party wrapper for Facebook.)
+```
+
+https://f-droid.org/app/com.pitchedapps.frost
+```
+
 ## License
 
 Content of the **hosts** is licensed under a [MIT License](https://github.com/vdbhb59/hosts/blob/master/LICENSE).
