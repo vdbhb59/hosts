@@ -1,20 +1,31 @@
 # hosts
 Curated lists of hosts files with various domain blocks. See "Source" text file for credits and source list. Lot of hosts are based on my own digging.
 
+I have made different variants, with older model of phones and with lesser ram available. All lists are compatible with almost all adblockers.
+
+N.B.: I am not planning on filters yet, as that is a very heavy task, and takes way much time to maintain. Will come to it soon though.
+
 Following are the list of files present within the repository:
 
-01. **Ultimate** > Contains blockers for almost all sites.
-**`youtube.com`** and **`googlevideo.com`** are removed from blacklist.
-**`graph.facebook.com`** is blacklisted, as it is a black redirect.
+01. **ALL** > Contains blockers for almost all sites. Will break many things, so please ask me to whitelist with the correct hosts-ip. The list is huge, so it is difficult to examine and identify what may cause the break. Try and use DNS66 or Blokada to determine the blocker.
+Size - Average `10-15 MB`, depending on dead entries.
 
-02. **Xtreme** > Contains blockers for Samsung devices as well. However, limited in hosts.
+02. **Large** > Contains almost all blocklists, however, smaller in size compared to `ALL`. Probably `half the size` at times.
+
+03. **Midi** > Contains blockers for Samsung devices as well. However, limited in hosts. Bit smaller in size, but would stay `beyond 5MB` most of the times.
 I am not planning on updating this too much, but I will try my level best.
 
-03. **YouTube** > Special hosts for YouTube adverytisements.
+04. **Mini** > Minimal hosts, but with device wide (android only) ads blocked. The Ads-Block-List android blockers are included to cover device wide blocking.
+File size - `2MB`. Caters to all low memory phones, or older version phones. Works on Jellybean too (may break few functions, minimum though).
+
+05. **YouTube** > Special hosts for YouTube adverytisements.
 Server uses **`s.ytimg.com`** and **`manifest.googlevideo.com`** to push advertisements.
 Of late, **`youtube-nocookie.com`** is being used by Alphabet Incorporation to push advertisements, as well as video content, and thus may not work unless this is whitelisted. I have whitelisted it as of now.
 
-04. **Ads Block List** > Contains special wildcard based (not wildcards itself) entries, which blocks device wide advertisements, including applications in-ads as well. Contains **`graph.facebook.`** as well for facebook wide ads. Also contains the most notorious **`inmobi`** advert blocking. This list is added by default in the **`Ultimate`** list.
+04. **Ads-Block-List** > Contains special wildcard based (not wildcards itself) entries, which blocks device wide advertisements (cross platforms may have some issues based on localhosts), including applications in-ads as well. Contains **`graph.facebook.`** as well for facebook wide ads. Also contains the most notorious **`inmobi`** advert blocking. This list is not added by default as contains cross operating system blockers, and may interfere in different devices and operating systems. However, only the `Android` ports are added to block system wide advertisements.
+
+N.B.: **`youtube.com`** and **`googlevideo.com`** are removed from blacklist.
+**`graph.facebook.com`** is now whitelisted for FB fanatics.
 
 I am working on a systmd to make it work nightly.
 
