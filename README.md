@@ -64,8 +64,10 @@ Otherwise, if one does not wish to add it manually, one can use this host file w
 Open Blokada > navigate to Hosts List > Click + button and then copy paste your choice of hosts from the below url.
 Then press the Shield icon to activate.
 ```
-https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Ultimate.txt
-https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Xtreme.txt
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-ALL.txt
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Large.txt
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Midi.txt
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Mini.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
 ```
 
@@ -73,8 +75,10 @@ https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
 Open DNS66 > swipe to Hosts > Click + button and then copy paste your choice of hosts from the below url.
 Then press the refresh icon on the top and press the start button.
 ```
-https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Ultimate.txt
-https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Xtreme.txt
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-ALL.txt
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Large.txt
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Midi.txt
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Mini.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
 ```
 
@@ -82,8 +86,10 @@ https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
 Open Adaway > go to Host Source > Click + button and then copy paste your choice of hosts from the below url.
 Then Click enable ad blocking from the home menu.
 ```
-https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Ultimate.txt
-https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Xtreme.txt
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-ALL.txt
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Large.txt
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Midi.txt
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Mini.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
 ```
 
