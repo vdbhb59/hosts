@@ -1,11 +1,15 @@
 # Created By: ViUsh (@vdbhb59)
-# Last updated: Wed Feb 19 15:14:19 UTC 2020
-# Blocked domains: 32849
+# Last updated: Sat Feb 22 11:11:54 UTC 2020
+# Blocked domains: 32843
 # 
-# Source: https://raw.githubusercontent.com/vdbhb59/hosts/master/Sources.txt
-# Ultimate Result: https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Ultimate.txt
-# Xtended Result: https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Xtreme.txt
-# YouTube Result: https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
+# Source: >
+# https://raw.githubusercontent.com/vdbhb59/hosts/master/Sources.txt
+# Ouput: >
+# https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-ALL.txt
+# https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Large.txt
+# https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Midi.txt
+# https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Mini.txt
+# https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
 
 # <header>
 127.0.0.1 localhost vdbhb59
@@ -29,7 +33,6 @@ ff02::3 ip6-allhosts
 # <blocklist>
 0.0.0.0 2975c.v.fwmrm.net
 0.0.0.0 2mdn.net
-0.0.0.0 2mdn.nethblock-check.molinero.dev
 0.0.0.0 ad-g.doubleclick.net
 0.0.0.0 ad.doubleclick.net
 0.0.0.0 ad.mo.doubleclick.net
@@ -119,7 +122,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 log.youtube.com
 0.0.0.0 main.youtube.com
 0.0.0.0 manage.youtube.com
-# 0.0.0.0 manifest.googlevideo.com
 0.0.0.0 mgmt.youtube.com
 0.0.0.0 mirror.youtube.com
 0.0.0.0 mobile.youtube.com
@@ -32835,7 +32837,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 rtd.tubemogul.com
 0.0.0.0 s.innovid.com
 0.0.0.0 s.youtube.com
-0.0.0.0 s.ytimg.com
 0.0.0.0 s0.2mdn.net
 0.0.0.0 s3.youtube.com
 0.0.0.0 secure-ds.serving-sys.com
@@ -32870,11 +32871,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.analytic-google.com
 0.0.0.0 www.googleadservices.com
 0.0.0.0 www.googletagservices.com
-0.0.0.0 www.gstatic.com
-# 0.0.0.0 www.youtube-nocookie.com
-0.0.0.0 www.youtube.com
 0.0.0.0 www2.youtube.com
 0.0.0.0 xml.youtube.com
-# 0.0.0.0 youtube-nocookie.com
 0.0.0.0 yyz10s14-in-f14.1e100.net
 # </blocklist>
