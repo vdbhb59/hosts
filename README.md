@@ -23,7 +23,7 @@ Server uses **`s.ytimg.com`** and **`manifest.googlevideo.com`** to push adverti
 Of late, **`youtube-nocookie.com`** is being used by Alphabet Incorporation to push advertisements, as well as video content, and thus may not work unless this is whitelisted. I have whitelisted it as of now.
 
 04. **Ads-Block-List** > Contains special wildcard based (not wildcards itself) entries, which blocks device wide advertisements (cross platforms may have some issues based on localhosts), including applications in-ads as well. Contains **`graph.facebook.`** as well for facebook wide ads. Also contains the most notorious **`inmobi`** advert blocking. This list is not added by default as contains cross operating system blockers, and may interfere in different devices and operating systems. However, only the `Android` ports are added to block system wide advertisements.
-This list is also contributed by [`quindecim`](https://github.com/quindecim), [`Nix Git`](https://git.nixnet.xyz/quindecim). Thanks mate. 😁
+This list is also contributed by [`quindecim`](https://git.nixnet.xyz/quindecim/block). Thanks mate. 😁
 
 N.B.: **`youtube.com`** and **`googlevideo.com`** are removed from blacklist.
 **`graph.facebook.com`** is now whitelisted for FB fanatics.
