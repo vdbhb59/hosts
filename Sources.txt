@@ -42,7 +42,6 @@ Master Hosts > Vokins: https://github.com/vokins
 YouTube Hosts > MarshyMarsh: https://github.com/marshymarsh
 YouTube Hosts > Ivan Verevkin: https://github.com/idoo
 
-Local Hosts > qundecim > https://github.com/quindecim
-His Nix Git > https://git.nixnet.xyz/quindecim
+Local Hosts > qundecim > https://git.nixnet.xyz/quindecim/block
 
 License: MIT
