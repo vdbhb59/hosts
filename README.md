@@ -32,6 +32,17 @@ I am working on a systmd to make it work nightly.
 
 ## Supported Operating Systems
 
+***Android:*** For non-rooted devices, GoodbyeAds can be used with [`DNS66`](https://f-droid.org/en/packages/org.jak_linux.dns66/), [`Blokada`](https://f-droid.org/en/packages/org.blokada.alarm/), [`Personal DNS Filter`](https://www.zenz-solutions.de/personaldnsfilter/) or [`Nebulo`](https://nebulo.app/source).
+The above softwares are free and open-source ad-blockers.
+
+For rooted devices, one can replace the default **hosts** file with the file of choice from here, after renaming the choice file to "**hosts**". Permissions should be **rw-r--r--** / **644**.
+
+Otherwise, if one does not wish to add it manually, one can use this host file with [`AdAway`](https://f-droid.org/en/packages/org.adaway/), a free and open-source ad-blocker for Android.
+
+***Linux:*** An open-source host file manager called [`hBlock`](https://github.com/hectorm/hBlock).
+
+***Mac OS:*** This host file can be used with [`gasmask`](https://github.com/2ndalpha/gasmask).
+
 ***Windows:*** Users for Windows would find it easy to use with [`Hostman`](http://www.abelhadigital.com/hostsman/), a software to manage host file.
 
 In case the above is not working, you can try one of the following as well:
@@ -47,17 +58,6 @@ Use installer [`hostsinstaller`](https://github.com/vdbhb59/hosts/blob/master/ho
 2) Go to `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Dnscache`, and locate the "Start" registry key. Now change its value from 2 (Automatic) to 4 (Disabled)
 
 3) Restart computer once & now change your host file with bigger SIZE.
-
-***Android:*** For non-rooted devices, GoodbyeAds can be used with [`DNS66`](https://f-droid.org/en/packages/org.jak_linux.dns66/), [`Blokada`](https://f-droid.org/en/packages/org.blokada.alarm/), [`Personal DNS Filter`](https://www.zenz-solutions.de/personaldnsfilter/) or [`Nebulo`](https://nebulo.app/source).
-The above softwares are free and open-source ad-blockers.
-
-For rooted devices, one can replace the default **hosts** file with the file of choice from here, after renaming the choice file to "**hosts**". Permissions should be **rw-r--r--** / **644**.
-
-Otherwise, if one does not wish to add it manually, one can use this host file with [`AdAway`](https://f-droid.org/en/packages/org.adaway/), a free and open-source ad-blocker for Android.
-
-***Linux:*** An open-source host file manager called [`hBlock`](https://github.com/hectorm/hBlock).
-
-***Mac OS:*** This host file can be used with [`gasmask`](https://github.com/2ndalpha/gasmask).
 
 ## Usage guide
 
@@ -100,7 +100,7 @@ https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
 - __Facebook Lite Messenger__
 
 ## Recommended Apps
-For those who still are hardcore facebook users, you can try Frost from F-Droid.
+For those who still are hardcore f*c*book (lol) users, you can try Frost from F-Droid.
 Frost for Facebook (A fast and extensive third party wrapper for Facebook.)
 ```
 https://f-droid.org/app/com.pitchedapps.frost

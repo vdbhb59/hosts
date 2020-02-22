@@ -16,6 +16,7 @@ https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAd
 https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
 https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt
 https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-LeEco-Extension.txt
+https://raw.githubusercontent.com/gloeyisk/SystemlessHosts/master/common/hosts
 https://gist.githubusercontent.com/marshymarsh/5c34b5a6530d46fa0f3076bed52d293a/raw/aa0a0782426582dfe312da7f3486c3dae680d9da/BlockYouTubeHostsFile
 https://gist.githubusercontent.com/idoo/dc809ae93a3da54fb24c92185dfffffa/raw/d19b6edd63cbd9154d20dce782198920c3bb770e/hosts-yt-ads
 
@@ -39,6 +40,7 @@ CoinMiner > Anudeep: https://github.com/anudeepND
 Pro Hosts (BadMojr) > Imre Kristoffer Eilertsen (Dandelion Sprout): https://github.com/DandelionSprout
 Master Hosts > Chayoung You: https://github.com/Yous
 Master Hosts > Vokins: https://github.com/vokins
+Systemless Hosts (Porn+FakeNews+Gambling) > Gilang Iskandar (Gloeyisk): https://github.com/gloeyisk
 YouTube Hosts > MarshyMarsh: https://github.com/marshymarsh
 YouTube Hosts > Ivan Verevkin: https://github.com/idoo
 
