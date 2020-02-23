@@ -23,9 +23,7 @@ https://gist.githubusercontent.com/idoo/dc809ae93a3da54fb24c92185dfffffa/raw/d19
 
 Resultant Hosts:
 
-https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Ultimate.txt
-https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Xtreme.txt
-https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-ALL.txt https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Large.txt https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Midi.txt https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Mini.txt https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
 
 Credits:
 Steven Black > Steven Black: https://github.com/StevenBlack
