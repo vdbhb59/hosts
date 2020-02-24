@@ -1,5 +1,5 @@
 # Created By: ViUsh (@vdbhb59)
-# Last updated: Sat Feb 22 11:11:54 UTC 2020
+# Last updated: Mon Feb 24 09:05:54 UTC 2020
 # Blocked domains: 32843
 # 
 # Source: >

@@ -44,4 +44,8 @@ YouTube Hosts > Ivan Verevkin: https://github.com/idoo
 
 Local Hosts > qundecim > https://git.nixnet.xyz/quindecim/block
 
+To be used list:
+https://github.com/nickspaargaren/no-google (Thanks @EVan (785172845) for pointing this out)
+https://github.com/nickspaargaren/no-amazon
+
 License: MIT
