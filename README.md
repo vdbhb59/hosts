@@ -21,6 +21,17 @@ File size - `2MB`. Caters to all low memory phones, or older version phones. Wor
 05. **YouTube** > Special hosts for YouTube advertisements.
 Server uses **`s.ytimg.com`** and **`manifest.googlevideo.com`** to push advertisements.
 Of late, **`youtube-nocookie.com`** is being used by Alphabet Incorporation to push advertisements, as well as video content, and thus may not work unless this is whitelisted. I have whitelisted it as of now.
+Hence, the following are whitelisted as of now.
+# 0.0.0.0 apis.google.com
+# 0.0.0.0 clients.l.google.com
+# 0.0.0.0 clients1.google.com
+# 0.0.0.0 gstatic.com
+# 0.0.0.0 manifest.googlevideo.com
+# 0.0.0.0 i.ytimg.com
+# 0.0.0.0 www.gstatic.com
+# 0.0.0.0 www.youtube-nocookie.com
+# 0.0.0.0 youtube-nocookie.com
+
 
 04. **Ads-Block-List** > Contains special wildcard based (not wildcards itself) entries, which blocks device wide advertisements (cross platforms may have some issues based on localhosts), including applications in-ads as well. Contains **`graph.facebook.`** as well for facebook wide ads. Also contains the most notorious **`inmobi`** advert blocking. This list is not added by default as contains cross operating system blockers, and may interfere in different devices and operating systems. However, only the `Android` ports are added to block system wide advertisements.
 This list is also contributed by [`quindecim`](https://git.nixnet.xyz/quindecim/block). Thanks mate. 😁
