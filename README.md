@@ -38,6 +38,8 @@ This list is also contributed by [`quindecim`](https://git.nixnet.xyz/quindecim/
 N.B.: **`youtube.com`** and **`googlevideo.com`** are removed from blacklist.
 **`graph.facebook.com`** is now whitelisted for FB fanatics.
 
+05. **Hosts-Tracking** > This is just specially designed list. Contains all the hosts (afaiaa) of tracking actors throughout various app, sites, and what not.
+
 I am working on a systmd to make it work nightly.
 
 ## Supported Operating Systems
