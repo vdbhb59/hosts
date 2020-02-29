@@ -1,6 +1,6 @@
 # Created By: ViUsh (@vdbhb59)
-# Last updated: Tue Feb 25 15:39:47 UTC 2020
-# Blocked domains: 70908
+# Last updated: Sat Feb 29 14:29:29 UTC 2020
+# Blocked domains: 70934
 # 
 # Source: >
 # https://raw.githubusercontent.com/vdbhb59/hosts/master/Sources.txt
@@ -4136,6 +4136,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adntokyo.gunosy.com
 0.0.0.0 adnwif.smt.docomo.ne.jp
 0.0.0.0 adnxs.com
+0.0.0.0 adnxs.comadplexmedia.adk2x.com
 0.0.0.0 adnxs.revsci.net
 0.0.0.0 ado.pro-market.net
 0.0.0.0 adobe-d.openx.net
@@ -4290,6 +4291,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads-dev.youporn.com
 0.0.0.0 ads-direct.prodigy.net
 0.0.0.0 ads-dot-o7apps.appspot.com
+0.0.0.0 ads-fa.spotify.com
 0.0.0.0 ads-game-187f4.firebaseapp.com
 0.0.0.0 ads-game-configuration-master.ads.prd.ie.internal.unity3d.com
 0.0.0.0 ads-hl.noktamedya.com.tr
@@ -5571,6 +5573,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.spilgames.com
 0.0.0.0 ads.spintrade.com
 0.0.0.0 ads.sportsblog.com
+0.0.0.0 ads.spotify.com
 0.0.0.0 ads.sprout-ad.com
 0.0.0.0 ads.sptimes.com
 0.0.0.0 ads.spymac.net
@@ -8617,6 +8620,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics.snssdk.com
 0.0.0.0 analytics.soup.io
 0.0.0.0 analytics.spongecell.com
+0.0.0.0 analytics.spotify.com
 0.0.0.0 analytics.spotta.nl
 0.0.0.0 analytics.springboardvideo.com
 0.0.0.0 analytics.stg.springboardvideo.com
@@ -10865,7 +10869,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 audienceinsights.com
 0.0.0.0 audiences.celtra.com
 0.0.0.0 audio-book.net.pl
+0.0.0.0 audio-sp-sto.spotify.com
 0.0.0.0 audio.de.intellitxt.com
+0.0.0.0 audio2.spotify.com
 0.0.0.0 audioboom.deliveryengine.adswizz.com
 0.0.0.0 audiomax.adswizz.com
 0.0.0.0 audiomax.devel.adswizz.com
@@ -17086,6 +17092,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 content.ariellaferrera.com
 0.0.0.0 content.avadevine.com
 0.0.0.0 content.bannerconnect.net
+0.0.0.0 content.bitsontherun.com
 0.0.0.0 content.budsinc.com
 0.0.0.0 content.clipster.ws
 0.0.0.0 content.clubcharismaxxx.com
@@ -17667,6 +17674,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 craktraffic.com
 0.0.0.0 crash-metrics.sdk.inmobi.com
 0.0.0.0 crash.163.com
+0.0.0.0 crashdump.spotify.com
 0.0.0.0 crasheye.cn
 0.0.0.0 crashlogs.whatsapp.net
 0.0.0.0 crashlogs.woniu.com
@@ -17892,6 +17900,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cs.shiporama.com
 0.0.0.0 cs.spotlessweb.com
 0.0.0.0 cs.yieldoptimizer.com
+0.0.0.0 cs126.wpc.edgecastcdn.net
 0.0.0.0 cs1g.com
 0.0.0.0 cs6hm.com
 0.0.0.0 csakneked.info
@@ -18372,6 +18381,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d2c8v52ll5s99u.cloudfront.net
 0.0.0.0 d2cgumzzqhgmdu.cloudfront.net
 0.0.0.0 d2cmedia.ca
+0.0.0.0 d2gi7ultltnc2u.cloudfront.net
 0.0.0.0 d2nq0f8d9ofdwv.cloudfront.net
 0.0.0.0 d2o9ozfswytaqz.cloudfront.net
 0.0.0.0 d2oh4tlt9mrke9.cloudfront.net
@@ -18399,6 +18409,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d3p.de17a.com
 0.0.0.0 d3qxwzhswv93jk.cloudfront.net
 0.0.0.0 d3r6awv9ysiyn4.cloudfront.net
+0.0.0.0 d3rt1990lpmkn.cloudfront.net
 0.0.0.0 d3ujids68p6xmq.cloudfront.net
 0.0.0.0 d4.adsplay.net
 0.0.0.0 d4.cumshots.ws
@@ -19179,6 +19190,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 desk.adasiaholdings.com
 0.0.0.0 desk.mspaceads.com
 0.0.0.0 desk.opt.fimserve.com
+0.0.0.0 desktop.spotify.com
 0.0.0.0 desktopangels.net
 0.0.0.0 desktoprepair.info
 0.0.0.0 destinyangel.net
@@ -24555,6 +24567,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 getyourfreetv.com
 0.0.0.0 getyourgiftnow2.blogspot.com
 0.0.0.0 getyourgiftnow3.blogspot.com
+0.0.0.0 gew1.ap.spotify.com
 0.0.0.0 gezinti.com
 0.0.0.0 gf.umenglog.com
 0.0.0.0 gfleaks.com
@@ -25432,6 +25445,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gtsads.com
 0.0.0.0 gtsdk.batmobi.net
 0.0.0.0 gtsmobi.com
+0.0.0.0 gtssl2-ocsp.geotrust.com
 0.0.0.0 gttr.hit.gemius.pl
 0.0.0.0 gu-pix.appspot.com
 0.0.0.0 gu.5.p2l.info
@@ -31038,6 +31052,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 log.sina.cn
 0.0.0.0 log.snapdeal.com
 0.0.0.0 log.snssdk.com.bytedns.net
+0.0.0.0 log.spotify.com
 0.0.0.0 log.statistici.ro
 0.0.0.0 log.stubhub.com.edgekey.net
 0.0.0.0 log.sunnyworks.co.kr
@@ -31257,6 +31272,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lomzynskie.pl
 0.0.0.0 lon-mknodepub.marketo.com
 0.0.0.0 lon.rtb.adsrvr.org
+0.0.0.0 lon6-accesspoint-a33.lon6.spotify.com
 0.0.0.0 lona.nend.net
 0.0.0.0 londep.pro
 0.0.0.0 londep18.com
@@ -37106,6 +37122,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 omanko-exposure.com
 0.0.0.0 omatures.com
 0.0.0.0 omax.admarvel.com
+0.0.0.0 omaze.com
 0.0.0.0 omega-best.org
 0.0.0.0 omega.best
 0.0.0.0 omegakredyt.com
@@ -44133,6 +44150,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 servedby.valuead.com
 0.0.0.0 servedbyadbutler.com
 0.0.0.0 servedbyopenx.com
+0.0.0.0 server-54-230-216-203.mrs50.r.cloudfront.net
 0.0.0.0 server-au.imrworldwide.com
 0.0.0.0 server-br.imrworldwide.com
 0.0.0.0 server-by.imrworldwide.com
@@ -45762,6 +45780,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 spc.cekfmeoejdbfcfichgbfcgjf.vast2as3.glammedia-pubnet.northamerica.telemetryverification.net
 0.0.0.0 spc.undo.jp
 0.0.0.0 spcdnsp.i-mobile.co.jp
+0.0.0.0 spclient.wg.spotify.com
 0.0.0.0 spcnv.i-mobile.co.jp
 0.0.0.0 spcode.baidu.com
 0.0.0.0 spd.atdmt.com
@@ -50271,6 +50290,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tracking.synthasite.net
 0.0.0.0 tracking.taboola.com
 0.0.0.0 tracking.tapinfluence.com
+0.0.0.0 tracking.tidalhifi.com
 0.0.0.0 tracking.tomsguide.com
 0.0.0.0 tracking.tomshardware.com
 0.0.0.0 tracking.trackmobistore.com
@@ -51029,6 +51049,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 u.moatads.com
 0.0.0.0 u.openx.net
 0.0.0.0 u.salmonads.com
+0.0.0.0 u.scdn.co
 0.0.0.0 u.startup.mobile.webvisor.com
 0.0.0.0 u.superadbox.com
 0.0.0.0 u.videoamp.com
@@ -51404,6 +51425,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 upfile16.mediaphim.com
 0.0.0.0 upforit.com
 0.0.0.0 upforitnetworks.com
+0.0.0.0 upgrade.scdn.co
+0.0.0.0 upgrade.spotify.com
 0.0.0.0 upgrade.themainplacesetnowforcontentingnew.bid
 0.0.0.0 upgradecheck12.thebestwaystofindreliablesoftwares.surf
 0.0.0.0 upgradedpoints.pushengage.com
@@ -51736,6 +51759,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.extreme-dm.com
 0.0.0.0 v.gdt.qq.com
 0.0.0.0 v.inigsplan.ru
+0.0.0.0 v.jwpcdn.com
 0.0.0.0 v.landingzone.se
 0.0.0.0 v.lkqd.net
 0.0.0.0 v.lvlt.crcdn.net
@@ -53366,6 +53390,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 webiq-warp.appspot.com
 0.0.0.0 webiq005.webiqonline.com
 0.0.0.0 webkurchatov.ru
+0.0.0.0 weblb-wg.gslb.spotify.com
 0.0.0.0 weblink.settrade.com
 0.0.0.0 webload101.hitbox.com
 0.0.0.0 weblog.blogads.com
@@ -63552,6 +63577,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.omacash.com
 0.0.0.0 www.omagro.pl
 0.0.0.0 www.omanko-exposure.com
+0.0.0.0 www.omaze.com
 0.0.0.0 www.omega-best.org
 0.0.0.0 www.omega.best
 0.0.0.0 www.omegakredyt.com
