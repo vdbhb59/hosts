@@ -11,7 +11,7 @@ set "target=%windir%\System32\drivers\etc\hosts"
 
 echo.
 echo ==================
-echo #    @vdbhb59    #
+echo #     @vdbhb59   #
 echo ==================
 echo.
 
