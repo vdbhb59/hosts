@@ -40,8 +40,6 @@ N.B.: **`youtube.com`** and **`googlevideo.com`** are removed from blacklist.
 
 07. **Hosts-Tracking** > This is just specially designed list. Contains all the hosts (afaiaa) of tracking actors throughout various app, sites, and what not.
 
-I am working on a systmd to make it work nightly.
-
 ## Supported Operating Systems
 
 ***Android:*** For non-rooted devices, GoodbyeAds can be used with [`DNS66`](https://f-droid.org/en/packages/org.jak_linux.dns66/), [`Blokada`](https://f-droid.org/en/packages/org.blokada.alarm/), [`Personal DNS Filter`](https://www.zenz-solutions.de/personaldnsfilter/) or [`Nebulo`](https://nebulo.app/source).
