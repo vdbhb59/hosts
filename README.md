@@ -13,15 +13,14 @@ Size - Average `10-15 MB`, depending on dead entries.
 02. **Large** > Contains almost all blocklists, however, smaller in size compared to `ALL`. Probably `half the size` at times.
 
 03. **Midi** > Contains blockers for Samsung devices as well. However, limited in hosts. Bit smaller in size, but would stay `beyond 5MB` most of the times.
-I am not planning on updating this too much, but I will try my level best.
 
 04. **Mini** > Minimal hosts, but with device wide (android only) ads blocked. The Ads-Block-List android blockers are included to cover device wide blocking.
-File size - `2MB`. Caters to all low memory phones, or older version phones. Works on Jellybean too (may break few functions, minimum though).
+File size - `1.8-2.5 MB`. Caters to all low memory phones, or older version phones. Works on Jellybean too (may break few functions, minimum though).
 
 05. **YouTube** > Special hosts for YouTube advertisements.
 Server uses **`s.ytimg.com`** and **`manifest.googlevideo.com`** to push advertisements.
-Of late, **`youtube-nocookie.com`** is being used by Alphabet Incorporation to push advertisements, as well as video content, and thus may not work unless this is whitelisted. I have whitelisted it as of now.
-Hence, the following are whitelisted as of now:
+Of late, **`youtube-nocookie.com`** is being used by Alphabet Incorporation to push advertisements, as well as video content, and thus may not work unless this is whitelisted.
+Hence, the following should be whitelisted:
 **`0.0.0.0 apis.google.com`**
 **`0.0.0.0 clients.l.google.com`**
 **`0.0.0.0 clients1.google.com`**
@@ -36,7 +35,7 @@ Hence, the following are whitelisted as of now:
 This list is also contributed by [`quindecim`](https://git.nixnet.xyz/quindecim/block). Thanks mate. 😁
 
 N.B.: **`youtube.com`** and **`googlevideo.com`** are removed from blacklist.
-**`graph.facebook.com`** is now whitelisted for FB fanatics.
+**`graph.facebook.com`** should be whitelisted if you want to use f**kbook.
 
 07. **Hosts-Tracking** > This is just specially designed list. Contains all the hosts (afaiaa) of tracking actors throughout various app, sites, and what not.
 
