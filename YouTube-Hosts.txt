@@ -1,21 +1,12 @@
 # Created By: ViUsh (@vdbhb59)
-# Last updated: Sat Mar 28 14:41:58 UTC 2020
-# Blocked domains: 32858
-#
-# Source: >
-# https://raw.githubusercontent.com/vdbhb59/hosts/master/Sources.txt
-# Ouput: >
-# https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-ALL.txt
-# https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Large.txt
-# https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Midi.txt
-# https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Mini.txt
-# https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
+# Repository: https://github.com/vdbhb59/hosts
+# Last updated: Sun Apr 19 08:18:05 UTC 2020
+# Blocked domains: 32863
 
 # <header>
 127.0.0.1 localhost vdbhb59
 127.0.0.1 localhost.localdomain
 127.0.0.1 local
-127.0.0.1 kali
 127.0.0.1 @vdbhb59
 127.0.0.1 vdbhb59
 127.0.0.1 ViUsh
@@ -105,6 +96,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 gw.youtube.com
 0.0.0.0 help.youtube.com
 0.0.0.0 helpdesk.youtube.com
+0.0.0.0 home.youtube.com
+0.0.0.0 hooktube.com
 0.0.0.0 host.youtube.com
 0.0.0.0 http.youtube.com
 0.0.0.0 i1.ytimg.com
@@ -126,6 +119,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 linux.youtube.com
 0.0.0.0 local.youtube.com
 0.0.0.0 log.youtube.com
+0.0.0.0 m.youtube.com
 0.0.0.0 main.youtube.com
 0.0.0.0 manage.youtube.com
 0.0.0.0 mgmt.youtube.com
@@ -32867,6 +32861,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 test1.youtube.com
 0.0.0.0 test2.youtube.com
 0.0.0.0 testing.youtube.com
+0.0.0.0 twitch.tv
 0.0.0.0 upload.youtube.com
 0.0.0.0 vm.youtube.com
 0.0.0.0 vnc.youtube.com
@@ -32887,6 +32882,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xml.youtube.com
 0.0.0.0 y.googlevideo.com
 0.0.0.0 youtube-nocookie.com
+0.0.0.0 youtube.com
 0.0.0.0 yyz10s14-in-f14.1e100.net
 0.0.0.0 z.googlevideo.com
 # </blocklist>
