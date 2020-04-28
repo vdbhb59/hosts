@@ -1,1 +1,842 @@
--ads.*.ad.**.admob.com*.ads.**.analytics.**.analytics.localytics.com*.anchors.atlas.ripe.net*.ati-host.net*.ca-eulerian.net*.co.jp*.criteo.com*.criteoemail.com*.criteois.com*.criteolabs.com*.criteonlts.com*.crto.io*.destinia.**.ebis.**.etr.im*.eulerian*.eulerian.**.g.doubleclick.net*.lan*.local*.localdomain*.mailperformance.com*.mateti.net*.metrics*.mperf.com*.online-metrix.net*.oui.sncf*.spam*.stats.**.threatmetrix.**.threatmetrix.com*.webtrekk.com*.webtrekk-system.com*.workgroup.ad..admob.com.ads..analytics.localytics.com.api.vungle.com.appnext.com.appsdt.com.baidu.com.duapps.com.flurry.com.g.doubleclick.net.greystripe.com.inmobi.com.madnet.ru.mopub.com.mp.mydas.mobi.plus1.wapstart.ru.tapas.net.yandex.net/ad./ads[ALL_STRINGS][HTTP]61.145.124.238a8.*a802.*a803.*a8aspconv.*a8click.*a8clk.*a8cv.*a8cv2.*a8tra.*a8track.*a8trck.*a8trk.*aa-metrics.*ac-ebis.*acv.*ad.*ad.api.kaffnet.comadc3-launchadclear.*adclick.*adcolony.comadeb.*adebis.*adebis01.*adebiscname.*adebis-cname.*ad-mail.ruadmax.nexage.comadobeanalytics.*adobes.*ads.ads.*ads.mopub.comadstat.*adtrack.*advertadvertiser.*adz.wattpad.comaffiliate.*affiliates.*alta.eqmob.comamazon-adsystem.comamazonaws.comanalytic.*analyticapi.*analytics.*analytics-ssl.*applovin.comapplvn.comappnext.hsappodeal.combanner.*banners.*beacon.*beacons.*clicks.*clk.*cname.*cnameadebis.*cnameebis.*collect.*collecte.*collector.*com.google.android.gms.ads.identifier.service.STARTcompare.*compare-im.*content22.*counter.*crashlytics.comcreatives.*csmetrics.*csvt001.*csvt002.*csvt003.*csvt004.*csvt005.*csvt006.*csvt007.*csvt008.*csvt009.*csvt010.*csvtr.*csvtr01.*csvtr02.*csvtr03.*csvtr04.*csvtr05.*csvtr06.*csvtr07.*csvtr08.*csvtr09.*csvtr10.*csvtr11.*csvtr12.*csvtr13.*csvtr14.*csvtr15.*csvtr16.*csvtr17.*csvtr18.*csvtr19.*csvtr20.*csvtt.*csvtu.*data-collector.*dsp.batmobil.netebis.*ebis2.*ebiscname.*ebis-tracking.*emetrics.*eth0.meeulerian.*euleriancdn.*event.*eventlog.*events.*events-collector.*f1.*geo.*geoip.*geoiplookup.*geoip-lookup.*geoloc.*geolocation.*geoservice.*google.com/dfpgooglesyndication.comgraph.facebook.hubmetrics.*ibpxl.comimp.startappservice.cominfo.static.startappservice.cominit.startappservice.cominmobi.cominmobicdn.netinternetbrands.comlive.chartboost.comlog.*logger.*logging.*logs.*mailtracking.*marketing.*mdws.*meds.*metric.*metrics.*metrics1.*metrics2.*metrics-api.*metricssecure.*metrix.*millennialmedia.commoatadsmobile.admost.commobile-static.adsafeprotectedmotd.ubuntu.commtrcs.*mtrs.*my.mobfox.comnet.rayjump.comnmetrics.*nsmetrics.*oas.*oascentral.*oimg.*om.*ometrics.*omn.*omni.*omnis.*omnistat.*omnistats.*omniture.*omniture-ssl.*omns.*omtr1.*omtr2.*omtrkpix.*omts.*os-adebis.*oscs.*osimg.*ot.*profiling.*profiling1.*profiling2.*profiling3.*profiling4.*pubnative.netregain-cname.*repdata.*req.startappservice.comrun.admost.comsadbmetrics.*sadobe.*s-adobe.*sadobemarketing.*sanalytics.*sappmetrics.*sb.scorecardresearch.comsc.*scmetrics.*scookies-adobe.*scsmetrics.*sdata.*secmetrics.*secureanalytics.*securedata.*securemetrics.*securestats.*securetracking.*sfeedback.*shopcname.*simg.*sitecatalyst.*smaato.smeasurement.*smetr.*smetric.*smetrics.*smetrics1.*smetrics2.*smetricsadobe.*smetrix.*smtrcs.*som.*sometrics.*somn.*somni.*somnistats.*somniture.*somstats.*somtrdc.*somtrkpix.*soosssl.*srepdata.*ssc.*sslanalytics.*sslmetrics.*sslstats.*sstat.*sstatistikk.*sstats.*sstatz.*sswmetrics.*starget.*startrekk.*stat.*static-ads.*statistics.*stats.*stats2.*statss.*stat-ssl.*statstracker.*stc.*strack.*stracking.*strk.*sucmetrics.*supersonicads.comsw88.*swa.*swebanalytics.*swebmetrics.*swebstats.*t.appsflyer.comtag.*tagcommander.*tags.*tapjoy.comtapjoyads.comtck.*telemetry.*testtags.*threatmetrix.*tk.*tm.*tmx-profiling.*tr.*tr1.*tr2.*tr3.*tr4.*tr5.*tr6.*tr7.*tr8.*tr9.*trac.*track.*tracker.*tracker-aa.*tracker-api.*trackers.*tracking.*trackingapi.*tracking-secure.*trackingssl.*tracks.*tracksrv.*trck.*trcka8.*trcka8net.*trk.*t-s.*ucmetrics.*udm.scorecardresearch.comulogs.*unityads.unity3d.comwbtrkk.*webmetrics.*webstat.*webstats.*www.dummy.comwww.mobitracker.commobi *yandex.comyandexadexchange.zmetrics.*.api.tracking
+# Created By: ViUsh (@vdbhb59)
+# Repository: https://github.com/vdbhb59/hosts
+# Last updated: Tue Apr 28 14:24:23 UTC 2020
+# Blocked domains: 817
+
+# <header>
+127.0.0.1 localhost vdbhb59
+127.0.0.1 localhost.localdomain
+127.0.0.1 local
+127.0.0.1 @vdbhb59
+127.0.0.1 vdbhb59
+127.0.0.1 ViUsh
+255.255.255.255 broadcasthost
+::1 localhost ip6-localhost ip6-loopback
+fe80::1%lo0 localhost
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+0.0.0.0 0.0.0.0
+# </header>
+
+# <blocklist>
+0.0.0.0 101android.ru
+0.0.0.0 111cn.net
+0.0.0.0 158bb.com
+0.0.0.0 15min.lt
+0.0.0.0 1reg.by
+0.0.0.0 24h.com.vn
+0.0.0.0 24tv.ua
+0.0.0.0 3g.163.com
+0.0.0.0 3pornstarmovies.com
+0.0.0.0 3prn.com
+0.0.0.0 41havadis.com
+0.0.0.0 4chan.org
+0.0.0.0 4g.co.uk
+0.0.0.0 4gamers.com.tw
+0.0.0.0 4pda.ru
+0.0.0.0 61saat.com
+0.0.0.0 99.co
+0.0.0.0 9gag.com
+0.0.0.0 9ketsuki.info
+0.0.0.0 aajtak.in
+0.0.0.0 abc.es
+0.0.0.0 about.com
+0.0.0.0 accuweather.com
+0.0.0.0 afaqs.com
+0.0.0.0 afpbb.com
+0.0.0.0 akket-com.cdn.ampproject.org
+0.0.0.0 al.com
+0.0.0.0 amarujala.com
+0.0.0.0 amazon.com
+0.0.0.0 amazon.de
+0.0.0.0 ameblo.jp
+0.0.0.0 amp-focus-de.cdn.ampproject.org
+0.0.0.0 amp-meduza-io.cdn.ampproject.org
+0.0.0.0 amp-reddit-com.cdn.ampproject.org
+0.0.0.0 amp-suara-com.cdn.ampproject.org
+0.0.0.0 amp.focus.de
+0.0.0.0 amp.hyser.com.ua
+0.0.0.0 amp.ibtimes.co.uk
+0.0.0.0 amp.n-tv.de
+0.0.0.0 amp.pcwelt.de
+0.0.0.0 amp.theguardian.com
+0.0.0.0 amp.usatoday.com
+0.0.0.0 ampproject.org
+0.0.0.0 analdin.com
+0.0.0.0 analteen.pro
+0.0.0.0 androidcentral.com
+0.0.0.0 anifresh.com
+0.0.0.0 anime2you.de
+0.0.0.0 animetvn.tv
+0.0.0.0 anlink.top
+0.0.0.0 anyporn.com
+0.0.0.0 apkmirror.com
+0.0.0.0 apkpure.com
+0.0.0.0 app-liv.jp
+0.0.0.0 appcrawlr.com
+0.0.0.0 appledaily.com
+0.0.0.0 appleinsider.com
+0.0.0.0 arabam.com
+0.0.0.0 arseblog.com
+0.0.0.0 asbook.net
+0.0.0.0 asianmilfhub.com
+0.0.0.0 atlasobscura.com
+0.0.0.0 atmarkit.co.jp
+0.0.0.0 auth.wi-fi.ru
+0.0.0.0 autoexperience.de
+0.0.0.0 avcanada.ca
+0.0.0.0 avgle.com
+0.0.0.0 avito.ru
+0.0.0.0 azeriseks.ru
+0.0.0.0 azstxs-lejyoner-info.cdn.ampproject.org
+0.0.0.0 babycenter.de
+0.0.0.0 babylonbee.com
+0.0.0.0 baidu.com
+0.0.0.0 bakufu.jp
+0.0.0.0 banazguncelhaber.com
+0.0.0.0 banglachotikahinii.com
+0.0.0.0 bangumi.org
+0.0.0.0 bankier.pl
+0.0.0.0 bash.im
+0.0.0.0 basketball.com.tr
+0.0.0.0 baumpflegeportal.de
+0.0.0.0 bboom.naver.com
+0.0.0.0 bbs.51credit.com
+0.0.0.0 bbs.52codes.net
+0.0.0.0 bbs.saraba1st.com
+0.0.0.0 bengo4.com
+0.0.0.0 bestie.vn
+0.0.0.0 bhaskar.com
+0.0.0.0 bigpian.cn
+0.0.0.0 bilgihanem.com
+0.0.0.0 blog.livedoor.com
+0.0.0.0 blog.livedoor.jp
+0.0.0.0 blog.mercedes-benz-passion.com
+0.0.0.0 blogdoiphone.com
+0.0.0.0 boards.4chan.org
+0.0.0.0 boluobjektif.com
+0.0.0.0 brainly.co.id
+0.0.0.0 buffed.de
+0.0.0.0 bunshun.jp
+0.0.0.0 businessinsider.co.za
+0.0.0.0 businessinsider.com
+0.0.0.0 bz-berlin.de
+0.0.0.0 cancam.jp
+0.0.0.0 carsales.com.au
+0.0.0.0 cartoon-sex.tv
+0.0.0.0 cheb.ru
+0.0.0.0 check-host.net
+0.0.0.0 chefkoch.de
+0.0.0.0 chiemgau24.de
+0.0.0.0 chip.de
+0.0.0.0 chosunonline.com
+0.0.0.0 cinematoday.jp
+0.0.0.0 ck101.com
+0.0.0.0 cnbc.com
+0.0.0.0 cnbeta.com
+0.0.0.0 cnn.co.jp
+0.0.0.0 cnn.com
+0.0.0.0 cnnturk.com
+0.0.0.0 coinmarketcap.com
+0.0.0.0 community.spiceworks.com
+0.0.0.0 comnews.ru
+0.0.0.0 csgostash.com
+0.0.0.0 cukurovaexpres.com
+0.0.0.0 dadroidrd.com
+0.0.0.0 daily.co.jp
+0.0.0.0 dailymail.co.uk
+0.0.0.0 dailynkjp.com
+0.0.0.0 dailyo.in
+0.0.0.0 dailywire.com
+0.0.0.0 dastelefonbuch.de
+0.0.0.0 dayifullfilmizle.com
+0.0.0.0 dbquiz.bhaskar.com
+0.0.0.0 dcard.tw
+0.0.0.0 delfi.ee
+0.0.0.0 denverpost.com
+0.0.0.0 deviantart.com
+0.0.0.0 dexerto.com
+0.0.0.0 dialog.ua
+0.0.0.0 dict.cc
+0.0.0.0 dict.hinkhoj.com
+0.0.0.0 dictionary.cambridge.org
+0.0.0.0 digit.in
+0.0.0.0 dizilla.com
+0.0.0.0 dlbooks.to
+0.0.0.0 dn.pt
+0.0.0.0 dnepr.info
+0.0.0.0 dni.ru
+0.0.0.0 dobreprogramy.pl
+0.0.0.0 dongtw.com
+0.0.0.0 download.cnet.com
+0.0.0.0 dreamfilmhd.sh
+0.0.0.0 drive2.ru
+0.0.0.0 duden.de
+0.0.0.0 duzheba.cc
+0.0.0.0 eastmoney.com
+0.0.0.0 economictimes.com
+0.0.0.0 edition.cnn.com
+0.0.0.0 eenaduindia.com
+0.0.0.0 egehaber.com
+0.0.0.0 egmnow.com
+0.0.0.0 eksisozluk.com
+0.0.0.0 elespanol.com
+0.0.0.0 enewspaper.latimes.com
+0.0.0.0 eporner.com
+0.0.0.0 epoznan.pl
+0.0.0.0 eroido.jp
+0.0.0.0 eurogamer.de
+0.0.0.0 eurogamer.net
+0.0.0.0 euroki.org
+0.0.0.0 evdesifa.com
+0.0.0.0 evrimagaci.org
+0.0.0.0 express.co.uk
+0.0.0.0 expressen.se
+0.0.0.0 extremetube.com
+0.0.0.0 factroom.ru
+0.0.0.0 fangraphs.com
+0.0.0.0 fapality.com
+0.0.0.0 farmacoecura.it
+0.0.0.0 fengfuyi.com
+0.0.0.0 ficbook.net
+0.0.0.0 filext.com
+0.0.0.0 filmkovani.com
+0.0.0.0 filmyani.com
+0.0.0.0 finance.ifeng.com
+0.0.0.0 finance.yahoo.com
+0.0.0.0 finanz-tools.de
+0.0.0.0 fishki.net
+0.0.0.0 fnn.jp
+0.0.0.0 focus.ua
+0.0.0.0 forbes.com
+0.0.0.0 forum.lowyat.net
+0.0.0.0 forums.androidcentral.com
+0.0.0.0 forums.windowscentral.com
+0.0.0.0 foxnews.com
+0.0.0.0 frag-mutti.de
+0.0.0.0 free-sex-video.net
+0.0.0.0 fuckler.com
+0.0.0.0 fukuishimbun.co.jp
+0.0.0.0 fullhdfilmonline.com
+0.0.0.0 fullizlet.com
+0.0.0.0 futurezone.de
+0.0.0.0 fuw.ch
+0.0.0.0 fux.com
+0.0.0.0 fxykx.com
+0.0.0.0 gadgethacks.com
+0.0.0.0 gadgets.bhaskar.com
+0.0.0.0 gadgets.ndtv.com
+0.0.0.0 gadgetsnow.com
+0.0.0.0 game735.com
+0.0.0.0 game8.vn
+0.0.0.0 gamesradar.com
+0.0.0.0 gametech.ru
+0.0.0.0 geeksokuhou.net
+0.0.0.0 gelbeseiten.de
+0.0.0.0 gematsu.com
+0.0.0.0 gesundheitsfrage.net
+0.0.0.0 gfycat.com
+0.0.0.0 giga.de
+0.0.0.0 gismeteo.by
+0.0.0.0 giveawayoftheday.com
+0.0.0.0 gizchina.com
+0.0.0.0 gizmobolt.com
+0.0.0.0 gmx.net
+0.0.0.0 gofeminin.de
+0.0.0.0 gomovies.cd
+0.0.0.0 gonzales-upslut-com.cdn.ampproject.org
+0.0.0.0 goodtoknow.co.uk
+0.0.0.0 google.com
+0.0.0.0 gotgayporn.com
+0.0.0.0 gotporn.com
+0.0.0.0 greatergood.berkeley.edu
+0.0.0.0 gridoto.com
+0.0.0.0 gruenderszene.de
+0.0.0.0 gsmarena.com
+0.0.0.0 gsp.ro
+0.0.0.0 gutefrage.net
+0.0.0.0 h5.17k.com
+0.0.0.0 hanime.tv
+0.0.0.0 hclips.com
+0.0.0.0 hdblog.it
+0.0.0.0 hdmotori.it
+0.0.0.0 hdxclub.com
+0.0.0.0 hdzog.com
+0.0.0.0 healthboards.com
+0.0.0.0 healthline.com
+0.0.0.0 heise.de
+0.0.0.0 heiye.cc
+0.0.0.0 hellporno.net
+0.0.0.0 hentai2read.com
+0.0.0.0 hi-tech.mail.ru
+0.0.0.0 hk.on.cc
+0.0.0.0 hochu.ua
+0.0.0.0 hockeybuzz.com
+0.0.0.0 homemoviestube.com
+0.0.0.0 hot-grid-id.cdn.ampproject.org
+0.0.0.0 hotmovs.com
+0.0.0.0 hurriyet.com.tr
+0.0.0.0 hurriyetaile.com
+0.0.0.0 iapps.im
+0.0.0.0 idfl.me
+0.0.0.0 idownloadblog.com
+0.0.0.0 ihuaben.com
+0.0.0.0 imobie.com
+0.0.0.0 imzog.com
+0.0.0.0 independent.co.uk
+0.0.0.0 indianexpress.com
+0.0.0.0 insideevs-com.cdn.ampproject.org
+0.0.0.0 insideevs.com
+0.0.0.0 interia.pl
+0.0.0.0 intouch-wunderweib-de.cdn.ampproject.org
+0.0.0.0 investing.com
+0.0.0.0 ipad.hotnews.ro
+0.0.0.0 iqiyi.com
+0.0.0.0 ircity.ru
+0.0.0.0 irk.ru
+0.0.0.0 it-here.ru
+0.0.0.0 itc.ua
+0.0.0.0 itest.5ch.net
+0.0.0.0 ixbt.com
+0.0.0.0 izlesene.com
+0.0.0.0 japantoday.com
+0.0.0.0 jayisgames.com
+0.0.0.0 jeuxvideo.com
+0.0.0.0 jianshu.com
+0.0.0.0 jiji.com
+0.0.0.0 jin115.com
+0.0.0.0 kachelmannwetter.com
+0.0.0.0 kadincatarifler.com
+0.0.0.0 kanasoku.info
+0.0.0.0 kino-teatr.ru
+0.0.0.0 kino.de
+0.0.0.0 kissanime.ru
+0.0.0.0 kisscartoon.me
+0.0.0.0 klusidee.nl
+0.0.0.0 koinmedya.com
+0.0.0.0 kolodischi.by
+0.0.0.0 kompasiana.com
+0.0.0.0 komputerswiat.pl
+0.0.0.0 korewaeroi.com
+0.0.0.0 korrespondent.net
+0.0.0.0 kozmopolitik.com.tr
+0.0.0.0 kp.ru
+0.0.0.0 ktuu.com
+0.0.0.0 laogu.cc
+0.0.0.0 laravel-news.com
+0.0.0.0 lenfilm.tv
+0.0.0.0 lexico.com
+0.0.0.0 lifehack.org
+0.0.0.0 lifehacker-com.cdn.ampproject.org
+0.0.0.0 lifo.gr
+0.0.0.0 liga.net
+0.0.0.0 limitsizamca.org
+0.0.0.0 livejournal.com
+0.0.0.0 livestrong.com
+0.0.0.0 m-gsmarena-com.cdn.ampproject.org
+0.0.0.0 m-jatimnow-com.cdn.ampproject.org
+0.0.0.0 m-news-de.cdn.ampproject.org
+0.0.0.0 m.17track.net
+0.0.0.0 m.3movs.com
+0.0.0.0 m.4tube.com
+0.0.0.0 m.52qumao.com
+0.0.0.0 m.6080w.com
+0.0.0.0 m.69shu.io
+0.0.0.0 m.9gag.com
+0.0.0.0 m.academyvn.com
+0.0.0.0 m.accuweather.com
+0.0.0.0 m.adevarul.ro
+0.0.0.0 m.allboxing.ru
+0.0.0.0 m.alphaporno.com
+0.0.0.0 m.anysex.com
+0.0.0.0 m.apkpure.com
+0.0.0.0 m.ariva.de
+0.0.0.0 m.ashemaletube.com
+0.0.0.0 m.augsburger-allgemeine.de
+0.0.0.0 m.auto.ru
+0.0.0.0 m.avtovokzaly.ru
+0.0.0.0 m.baidu.com
+0.0.0.0 m.banglanews24.com
+0.0.0.0 m.baodatviet.vn
+0.0.0.0 m.baomoi.com
+0.0.0.0 m.befuck.com
+0.0.0.0 m.benzinga.com
+0.0.0.0 m.bild.de
+0.0.0.0 m.blogtruyen.com
+0.0.0.0 m.bravotube.net
+0.0.0.0 m.brigitte.de
+0.0.0.0 m.bulbapedia.bulbagarden.net
+0.0.0.0 m.cda.pl
+0.0.0.0 m.cna.com.tw
+0.0.0.0 m.cnnindonesia.com
+0.0.0.0 m.comic.sportsseoul.com
+0.0.0.0 m.cricbuzz.com
+0.0.0.0 m.dcinside.com
+0.0.0.0 m.dcnews.ro
+0.0.0.0 m.delfi.lt
+0.0.0.0 m.delmagyar.hu
+0.0.0.0 m.detik.com
+0.0.0.0 m.discuss.com.hk
+0.0.0.0 m.dizilab.pw
+0.0.0.0 m.dm5.com
+0.0.0.0 m.dnn.de
+0.0.0.0 m.doisongphapluat.com
+0.0.0.0 m.donanimhaber.com
+0.0.0.0 m.drtuber.com
+0.0.0.0 m.dwdl.de
+0.0.0.0 m.economictimes.com
+0.0.0.0 m.empflix.com
+0.0.0.0 m.eprice.com.hk
+0.0.0.0 m.eprice.com.tw
+0.0.0.0 m.fanfox.net
+0.0.0.0 m.faz.net
+0.0.0.0 m.gadgets.ndtv.com
+0.0.0.0 m.galya.ru
+0.0.0.0 m.gameapps.hk
+0.0.0.0 m.gazetevatan.com
+0.0.0.0 m.glavnoe.ua
+0.0.0.0 m.gsmarena.com
+0.0.0.0 m.haber7.com
+0.0.0.0 m.haberler.com
+0.0.0.0 m.haberturk.com
+0.0.0.0 m.halihali.tv
+0.0.0.0 m.hclips.com
+0.0.0.0 m.hd21.com
+0.0.0.0 m.hdzog.com
+0.0.0.0 m.hkdm688.com
+0.0.0.0 m.huanqiu.com
+0.0.0.0 m.humoruniv.com
+0.0.0.0 m.iceporn.com
+0.0.0.0 m.ifun.tv
+0.0.0.0 m.ign.com
+0.0.0.0 m.igromania.ru
+0.0.0.0 m.iguides.ru
+0.0.0.0 m.imdb.com
+0.0.0.0 m.imgur.com
+0.0.0.0 m.ixinshijue.com
+0.0.0.0 m.karar.com
+0.0.0.0 m.kaskus.co.id
+0.0.0.0 m.khan.co.kr
+0.0.0.0 m.kn-online.de
+0.0.0.0 m.lenta.ru
+0.0.0.0 m.mangafox.la
+0.0.0.0 m.mangatown.com
+0.0.0.0 m.megafonpro.ru
+0.0.0.0 m.miaobige.com
+0.0.0.0 m.milliyet.com.tr
+0.0.0.0 m.muensterschezeitung.de
+0.0.0.0 m.mylust.com
+0.0.0.0 m.mynet.com
+0.0.0.0 m.nationalgeographic.com.tr
+0.0.0.0 m.naver.com
+0.0.0.0 m.neogaf.com
+0.0.0.0 m.news.de
+0.0.0.0 m.nfydd.com
+0.0.0.0 m.nhaccuatui.com
+0.0.0.0 m.nihaogood.com
+0.0.0.0 m.nn.by
+0.0.0.0 m.ntv.ru
+0.0.0.0 m.nuvid.com
+0.0.0.0 m.ok.ru
+0.0.0.0 m.olx.ua
+0.0.0.0 m.onvista.de
+0.0.0.0 m.perfectgirls.net
+0.0.0.0 m.plo.vn
+0.0.0.0 m.pornerbros.com
+0.0.0.0 m.porntube.com
+0.0.0.0 m.postimees.ee
+0.0.0.0 m.prohardver.hu
+0.0.0.0 m.qidian.com
+0.0.0.0 m.quotenmeter.de
+0.0.0.0 m.r4yy.com
+0.0.0.0 m.rambler.ru
+0.0.0.0 m.reddit.com
+0.0.0.0 m.repian.com
+0.0.0.0 m.republicworld.com
+0.0.0.0 m.rst.ua
+0.0.0.0 m.ruliweb.com
+0.0.0.0 m.rund-ums-baby.de
+0.0.0.0 m.sabah.com.tr
+0.0.0.0 m.sadistic.pl
+0.0.0.0 m.sakaryacark.com
+0.0.0.0 m.salihlisektorgazetesi.com
+0.0.0.0 m.saostar.vn
+0.0.0.0 m.sfgate.com
+0.0.0.0 m.sgkrehberi.com
+0.0.0.0 m.sondakika.com
+0.0.0.0 m.sovsport.ru
+0.0.0.0 m.spankbang.com
+0.0.0.0 m.sport.bild.de
+0.0.0.0 m.sports.ru
+0.0.0.0 m.sportsseoul.com
+0.0.0.0 m.sporx.com
+0.0.0.0 m.suedkurier.de
+0.0.0.0 m.sweclockers.com
+0.0.0.0 m.takvim.com.tr
+0.0.0.0 m.tarsushaber.com
+0.0.0.0 m.thepaper.cn
+0.0.0.0 m.thethao247.vn
+0.0.0.0 m.timesofindia.com
+0.0.0.0 m.tnaflix.com
+0.0.0.0 m.tokopedia.com
+0.0.0.0 m.trojmiasto.pl
+0.0.0.0 m.ttkmj.tv
+0.0.0.0 m.tubewolf.com
+0.0.0.0 m.tudotv.tv
+0.0.0.0 m.turizmajansi.com
+0.0.0.0 m.tvtoday.de
+0.0.0.0 m.tvzvezda.ru
+0.0.0.0 m.txxx.com
+0.0.0.0 m.veporn.live
+0.0.0.0 m.veporn.net
+0.0.0.0 m.veporn.video
+0.0.0.0 m.veporns.com
+0.0.0.0 m.vk.com
+0.0.0.0 m.voyeurhit.com
+0.0.0.0 m.washingtontimes.com
+0.0.0.0 m.watchcartoononline.io
+0.0.0.0 m.waz-online.de
+0.0.0.0 m.windowscentral.com
+0.0.0.0 m.winporn.com
+0.0.0.0 m.xcum.com
+0.0.0.0 m.xhamster.one
+0.0.0.0 m.xuehongxs.com
+0.0.0.0 m.yahoo.co.jp
+0.0.0.0 m.yeah1.com
+0.0.0.0 m.yelp.com
+0.0.0.0 m.yingshidaquan.cc
+0.0.0.0 m.ynet.co.il
+0.0.0.0 m.yourlust.com
+0.0.0.0 m.youtube.com
+0.0.0.0 magcity74.ru
+0.0.0.0 maharashtratimes.com
+0.0.0.0 mail.yahoo.com
+0.0.0.0 mainichi.jp
+0.0.0.0 mamibai.com
+0.0.0.0 mangastream.com
+0.0.0.0 manikyres.ru
+0.0.0.0 maxfoodfun.com
+0.0.0.0 mbd.baidu.com
+0.0.0.0 mdaily.bhaskar.com
+0.0.0.0 mdpr.jp
+0.0.0.0 med1.de
+0.0.0.0 mediafire.com
+0.0.0.0 megatube.xxx
+0.0.0.0 mein-wahres-ich.de
+0.0.0.0 memurlar.net
+0.0.0.0 mensxp.com
+0.0.0.0 merkur.de
+0.0.0.0 merlininkazani.com
+0.0.0.0 merriam-webster.com
+0.0.0.0 mgsm.pl
+0.0.0.0 milliyet.com.tr
+0.0.0.0 milliyetemlak.com
+0.0.0.0 mkan.eastday.com
+0.0.0.0 mobil.konhaber.com
+0.0.0.0 mobil.krone.at
+0.0.0.0 mobil.ksta.de
+0.0.0.0 mobil.mopo.de
+0.0.0.0 mobil.nwzonline.de
+0.0.0.0 mobil.ruhrnachrichten.de
+0.0.0.0 mobil.stern.de
+0.0.0.0 mobile.1haza.com
+0.0.0.0 mobile.donanimhaber.com
+0.0.0.0 mobile.ghanaweb.com
+0.0.0.0 mobile.lemonde.fr
+0.0.0.0 mobile.linuxtoday.com
+0.0.0.0 mobile.reuters.com
+0.0.0.0 mobile.twitter.com
+0.0.0.0 mobilescout.com
+0.0.0.0 mobilesyrup.com
+0.0.0.0 mobiltelefon.ru
+0.0.0.0 momon-ga.com
+0.0.0.0 money.cnn.com
+0.0.0.0 money.pl
+0.0.0.0 moneycontrol.com
+0.0.0.0 more-gamer.com
+0.0.0.0 morgenpost.de
+0.0.0.0 moroccoworldnews.com
+0.0.0.0 motherless.com
+0.0.0.0 motor-talk.de
+0.0.0.0 mp3club24.ru
+0.0.0.0 mp4mania.mobi
+0.0.0.0 mp4mania.rocks
+0.0.0.0 msn.com
+0.0.0.0 mumsnet.com
+0.0.0.0 muzmob.org
+0.0.0.0 mynet.com
+0.0.0.0 nakkheeran.in
+0.0.0.0 nashpol.com
+0.0.0.0 nasimke.ru
+0.0.0.0 navbharattimes.indiatimes.com
+0.0.0.0 ndtv.com
+0.0.0.0 nekopoi.cash
+0.0.0.0 nekopoi.lol
+0.0.0.0 netdoktor.de
+0.0.0.0 nettavisen.no
+0.0.0.0 netzwelt.de
+0.0.0.0 newgrodno.by
+0.0.0.0 news-us.org
+0.0.0.0 news.mail.ru
+0.0.0.0 news.yahoo.co.jp
+0.0.0.0 news18.com
+0.0.0.0 nfl.com
+0.0.0.0 nfmovies.com
+0.0.0.0 niji-gazo.com
+0.0.0.0 nijinchu.com
+0.0.0.0 nontongo.club
+0.0.0.0 nordbayern.de
+0.0.0.0 noticias.uol.com.br
+0.0.0.0 novelplanet.com
+0.0.0.0 novinky.cz
+0.0.0.0 nwanime.tv
+0.0.0.0 nydailynews.com
+0.0.0.0 nytimes.com
+0.0.0.0 obozrevatel.com
+0.0.0.0 octoba.net
+0.0.0.0 octopusads.net
+0.0.0.0 oggito.com
+0.0.0.0 ok-tv.org
+0.0.0.0 olx.ro
+0.0.0.0 onedio.com
+0.0.0.0 onet.pl
+0.0.0.0 online-lernen.levrai.de
+0.0.0.0 online-life.cc
+0.0.0.0 onlinemschool.com
+0.0.0.0 onliner.by
+0.0.0.0 only-tv.org
+0.0.0.0 opodo.de
+0.0.0.0 outlook.live.com
+0.0.0.0 ozgurbolu.com
+0.0.0.0 p4svip.com
+0.0.0.0 pc-magazin.de
+0.0.0.0 pcgames.de
+0.0.0.0 pcgameshardware.de
+0.0.0.0 pcgamesn.com
+0.0.0.0 pcmag.com
+0.0.0.0 pcworld.com
+0.0.0.0 pdalife.ru
+0.0.0.0 perezhilton.com
+0.0.0.0 phonearena.com
+0.0.0.0 piluli.ru
+0.0.0.0 pixiv.net
+0.0.0.0 pluggedin.ru
+0.0.0.0 pnp.de
+0.0.0.0 porn.com
+0.0.0.0 pornhd.com
+0.0.0.0 porntrex.com
+0.0.0.0 porntube.com
+0.0.0.0 pravda.com.ua
+0.0.0.0 promiflash.de
+0.0.0.0 prothomalo.com
+0.0.0.0 pure-t.ru
+0.0.0.0 purepc.pl
+0.0.0.0 quora.com
+0.0.0.0 radio-canada.ca
+0.0.0.0 radiotimes.com
+0.0.0.0 rakyatku.com
+0.0.0.0 rat.xxx
+0.0.0.0 rbc.ru
+0.0.0.0 readlightnovel.org
+0.0.0.0 realthaisluts.com
+0.0.0.0 red-forum.com
+0.0.0.0 reddit.com
+0.0.0.0 redtube.com
+0.0.0.0 reshil.org
+0.0.0.0 reviews.mtbr.com
+0.0.0.0 rg.ru
+0.0.0.0 ridble.com
+0.0.0.0 rocketnews24.com
+0.0.0.0 rockpapershotgun.com
+0.0.0.0 rp-online.de
+0.0.0.0 rtl.de
+0.0.0.0 ru-porn.org
+0.0.0.0 russian7.ru
+0.0.0.0 s.famitsu.com
+0.0.0.0 s.inside-games.jp
+0.0.0.0 s.response.jp
+0.0.0.0 saglamindir.net
+0.0.0.0 sagligabiradim.com
+0.0.0.0 sammobile.com
+0.0.0.0 sanspo.com
+0.0.0.0 sasisa.ru
+0.0.0.0 sciencealert.com
+0.0.0.0 sciencedaily.com
+0.0.0.0 scmp.com
+0.0.0.0 scotsman.com
+0.0.0.0 seattletimes.com
+0.0.0.0 seclub.org
+0.0.0.0 setfilmizle.vip
+0.0.0.0 shiftdelete.net
+0.0.0.0 shopee.co.id
+0.0.0.0 silenceisconsent.net
+0.0.0.0 simtimes.de
+0.0.0.0 sinefy.com
+0.0.0.0 sinoptik.ua
+0.0.0.0 sirabee.com
+0.0.0.0 skymetweather.com
+0.0.0.0 slate.com
+0.0.0.0 solarmoviesc.org
+0.0.0.0 sonicch.com
+0.0.0.0 sosok.grid.id
+0.0.0.0 sozcu.com.tr
+0.0.0.0 spankwire.com
+0.0.0.0 spiceworks.com
+0.0.0.0 sport1.de
+0.0.0.0 sports.ru
+0.0.0.0 sportskeeda.com
+0.0.0.0 starhit.ru
+0.0.0.0 stereogum.com
+0.0.0.0 stevengoh.com
+0.0.0.0 stockingfetishvideo.com
+0.0.0.0 stuttgarter-nachrichten.de
+0.0.0.0 suara.com
+0.0.0.0 sueddeutsche.de
+0.0.0.0 sunderlandecho.com
+0.0.0.0 superomsk.ru
+0.0.0.0 suslusozluk.com
+0.0.0.0 sutin0831.pixnet.net
+0.0.0.0 swedroid.se
+0.0.0.0 szifon.com
+0.0.0.0 t-online.de
+0.0.0.0 t.yesware.com
+0.0.0.0 tabletowo.pl
+0.0.0.0 techbang.com
+0.0.0.0 techbook.de
+0.0.0.0 techcrunch.com
+0.0.0.0 techradar.com
+0.0.0.0 techrum.vn
+0.0.0.0 tek.id
+0.0.0.0 telegraph.co.uk
+0.0.0.0 tempo.co
+0.0.0.0 tgd.kr
+0.0.0.0 theatlantic.com
+0.0.0.0 thebrickfan.com
+0.0.0.0 thechive.com
+0.0.0.0 themercury.com.au
+0.0.0.0 thenewslens.com
+0.0.0.0 thenewsminute.com
+0.0.0.0 theoutline.com
+0.0.0.0 thepostmillennial.com
+0.0.0.0 thesun.co.uk
+0.0.0.0 theverge.com
+0.0.0.0 ticotimes.net
+0.0.0.0 timeanddate.com
+0.0.0.0 timesofindia.indiatimes.com
+0.0.0.0 timesofisrael.com
+0.0.0.0 tocana.jp
+0.0.0.0 tonkosti.ru
+0.0.0.0 topwar.ru
+0.0.0.0 toucharcade.com
+0.0.0.0 trashbox.ru
+0.0.0.0 tribunnewswiki.com
+0.0.0.0 trustedreviews.com
+0.0.0.0 tube8.com
+0.0.0.0 tubedupe.com
+0.0.0.0 tubewolf.com
+0.0.0.0 turbopages.org
+0.0.0.0 turizmekstra.com
+0.0.0.0 tv889.com
+0.0.0.0 tvbs.com.tw
+0.0.0.0 tvtropes.org
+0.0.0.0 txxx.com
+0.0.0.0 txxx.tube
+0.0.0.0 ubr.ua
+0.0.0.0 udaff.com
+0.0.0.0 udn.com
+0.0.0.0 ufukgazetesi.net
+0.0.0.0 ukr.net
+0.0.0.0 ukraina.ru
+0.0.0.0 ulm-news.de
+0.0.0.0 uludagsozluk.com
+0.0.0.0 unian.net
+0.0.0.0 up.ymgt.xyz
+0.0.0.0 upornia.com
+0.0.0.0 uproxx.com
+0.0.0.0 us6odtasve.ru
+0.0.0.0 usatooday.com
+0.0.0.0 venturebeat.com
+0.0.0.0 vesti.ru
+0.0.0.0 vesti.ua
+0.0.0.0 vg247.com
+0.0.0.0 vgtimes.ru
+0.0.0.0 vijaykarnataka.com
+0.0.0.0 vikiporn.com
+0.0.0.0 vip.de
+0.0.0.0 vip.tiin.vn
+0.0.0.0 vippers.jp
+0.0.0.0 viva.co.id
+0.0.0.0 vivud.com
+0.0.0.0 vnexpress.net
+0.0.0.0 vorsprung-online.de
+0.0.0.0 vse-shutochki.ru
+0.0.0.0 vulture.com
+0.0.0.0 vuviphim.com
+0.0.0.0 vxjbdagjdec-eviewporn-com.cdn.ampproject.org
+0.0.0.0 wallstreet-online.de
+0.0.0.0 wap.lexun.com
+0.0.0.0 wapbaike.baidu.com
+0.0.0.0 wasabisyrup.com
+0.0.0.0 wccftech-com.cdn.ampproject.org
+0.0.0.0 weather.com
+0.0.0.0 webclick.megalabs.ru
+0.0.0.0 weblio.jp
+0.0.0.0 weser-kurier.de
+0.0.0.0 westseattleblog.com
+0.0.0.0 wetter.com
+0.0.0.0 wetter.de
+0.0.0.0 wibroporn.com
+0.0.0.0 winda10.com
+0.0.0.0 winfuture.mobi
+0.0.0.0 wired.com
+0.0.0.0 wizaz.pl
+0.0.0.0 woman.ru
+0.0.0.0 womane.ru
+0.0.0.0 womenshealth.de
+0.0.0.0 wsj.com
+0.0.0.0 wunderweib.de
+0.0.0.0 www-buzzfeed-com.cdn.ampproject.org
+0.0.0.0 www-buzzfeednews-com.cdn.ampproject.org
+0.0.0.0 www-chip-de.cdn.ampproject.org
+0.0.0.0 www-gadgetsnow-com.cdn.ampproject.org
+0.0.0.0 www-inside--handy-de.cdn.ampproject.org
+0.0.0.0 www-ndtv-com.cdn.ampproject.org
+0.0.0.0 www-nytimes-com.cdn.ampproject.org
+0.0.0.0 www-sportbuzzer-de.cdn.ampproject.org
+0.0.0.0 www-xda--developers-com.cdn.ampproject.org
+0.0.0.0 www.yahoo.com
+0.0.0.0 wz.de
+0.0.0.0 xbabe.com
+0.0.0.0 xda-developers.com
+0.0.0.0 xhamster.com
+0.0.0.0 xhamster2.com
+0.0.0.0 xnxx.com
+0.0.0.0 xtube.com
+0.0.0.0 xxxkingtube.com
+0.0.0.0 yahoo.co.jp
+0.0.0.0 yahoo.com
+0.0.0.0 yandex.com.tr
+0.0.0.0 yandex.ru
+0.0.0.0 yasehub.com
+0.0.0.0 yemek-com.cdn.ampproject.org
+0.0.0.0 yemektarifleri-sitesi.com
+0.0.0.0 yesiltopuklar.com
+0.0.0.0 youflix.is
+0.0.0.0 youjizz.com
+0.0.0.0 youtube.com
+0.0.0.0 yyy4480.net
+0.0.0.0 zaycev.net
+0.0.0.0 zaytung.com
+0.0.0.0 zbporn.com
+0.0.0.0 zdnet.de
+0.0.0.0 zeenews.india.com
+0.0.0.0 zeit.de
+0.0.0.0 zerohedge.com
+0.0.0.0 zhihu.com
+0.0.0.0 zmovs.com
+0.0.0.0 zvistka.net
+0.0.0.0 zybang.com
+# </blocklist>

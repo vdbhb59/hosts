@@ -1,6 +1,6 @@
 # Created By: ViUsh (@vdbhb59)
 # Repository: https://github.com/vdbhb59/hosts
-# Last updated: Sun Apr 19 08:18:05 UTC 2020
+# Last updated: Tue Apr 28 14:20:29 UTC 2020
 # Blocked domains: 32863
 
 # <header>
