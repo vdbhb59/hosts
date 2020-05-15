@@ -79,6 +79,7 @@ https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Large.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Midi.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Mini.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Ads-Block-List.txt
 ```
 
 ### DNS66
@@ -90,6 +91,7 @@ https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Large.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Midi.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Mini.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Ads-Block-List.txt
 ```
 
 ### Adaway
@@ -101,6 +103,7 @@ https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Large.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Midi.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Mini.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Ads-Block-List.txt
 ```
 
 ## Recommended Whitelist
