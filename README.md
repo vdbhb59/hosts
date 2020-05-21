@@ -74,36 +74,36 @@ Use installer [`hostsinstaller`](https://github.com/vdbhb59/hosts/blob/master/ho
 Open Blokada > navigate to Hosts List > Click + button and then copy paste your choice of hosts from the below url.
 Then press the Shield icon to activate.
 ```
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Ads-Block-List.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-ALL.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Large.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Midi.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Mini.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
-https://raw.githubusercontent.com/vdbhb59/hosts/master/Ads-Block-List.txt
 ```
 
 ### DNS66
 Open DNS66 > swipe to Hosts > Click + button and then copy paste your choice of hosts from the below url.
 Then press the refresh icon on the top and press the start button.
 ```
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Ads-Block-List.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-ALL.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Large.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Midi.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Mini.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
-https://raw.githubusercontent.com/vdbhb59/hosts/master/Ads-Block-List.txt
 ```
 
 ### Adaway
 Open Adaway > go to Host Source > Click + button and then copy paste your choice of hosts from the below url.
 Then Click enable ad blocking from the home menu.
 ```
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Ads-Block-List.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-ALL.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Large.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Midi.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Mini.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt
-https://raw.githubusercontent.com/vdbhb59/hosts/master/Ads-Block-List.txt
 ```
 
 ## Recommended Whitelist
