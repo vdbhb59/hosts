@@ -122,6 +122,41 @@ For YT users, use NewPipe. It is fully open sourced.
 https://f-droid.org/app/org.schabi.newpipe
 ```
 
+## Sources
+
+- __Source lists for my hosts files:__
+
+[Hectorm](https://hblock.molinero.dev/hosts) | [Hosts Vietnam](https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts) | [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts) | [PolishFiltersTeam](https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt) | [MetaMask](https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/hosts.txt) | [Bad-Boyz](https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts) | [AnudeepND](https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt) | [Badmojr](https://badmojr.github.io/1Hosts/Pro/hosts.txt) | [Easy List](https://easylist.to/easylist/easylist.txt) | [Easy List-Privacy](https://easylist.to/easylist/easyprivacy.txt) | [Easy List-Cookie](https://easylist-downloads.adblockplus.org/easylist-cookie.txt) | [Yous](https://raw.githubusercontent.com/yous/YousList/master/hosts.txt) | [YHosts](https://raw.githubusercontent.com/vokins/yhosts/master/hosts.txt) | [GBA-Samsung](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Samsung-AdBlock.txt) | [GBA-YT](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-YouTube-AdBlock.txt) | [GBA](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt) | [GBA-Xiaomi](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt) | [GBA-Le-Eco](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-LeEco-Extension.txt) | [Gloeyisk](https://raw.githubusercontent.com/gloeyisk/SystemlessHosts/master/system/etc/hosts) | [Idoo](https://gist.githubusercontent.com/idoo/dc809ae93a3da54fb24c92185dfffffa/raw/d19b6edd63cbd9154d20dce782198920c3bb770e/hosts-yt-ads)
+
+- __Resultant Hosts:__
+
+[`Ads-Block`](https://raw.githubusercontent.com/vdbhb59/hosts/master/Ads-Block-List.txt)
+[`ALL`](https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-ALL.txt)
+[`Large`](https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Large.txt)
+[`Midi`](https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Midi.txt)
+[`Mini`](https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Mini.txt)
+[`You-Tube`](https://raw.githubusercontent.com/vdbhb59/hosts/master/YouTube-Hosts.txt)
+
+- __Credits:__
+[Easylist > Easylist](https://easylist.to/index.html) |
+[HBlock > Héctor Molinero Fernández](https://github.com/hectorm) |
+[HostsVN > Bigdragon](https://github.com/bigdargon) |
+[Steven Black > Steven Black](https://github.com/StevenBlack) |
+[GoodByeAds > Jerryn70](https://github.com/jerryn70) |
+[KAD Hosts > PolishFiltersTeam](https://github.com/PolishFiltersTeam) |
+[Ethereum Phishing > MetaMask](https://github.com/MetaMask) |
+[Badd-Boyz-Hosts > Mitchell Krog](https://github.com/mitchellkrogza) |
+[CoinMiner > Anudeep](https://github.com/anudeepND) |
+[Pro Hosts (BadMojr) > Imre Kristoffer Eilertsen (Dandelion Sprout)](https://github.com/DandelionSprout) |
+[Master Hosts > Chayoung You](https://github.com/Yous) |
+[Master Hosts > Vokins](https://github.com/vokins) |
+[Systemless Hosts (Porn+FakeNews+Gambling) > Gilang Iskandar (Gloeyisk)](https://github.com/gloeyisk) -- May be removed soon, if not updated any longer.. |
+[No-Google > Nick Spaargaren](https://github.com/nickspaargaren/no-google) (Thanks Evan (785172845)(Telegram) for pointing this out) |
+[YouTube Hosts > Ivan Verevkin](https://github.com/idoo)
+
+To be used list:
+[No-Amazon](https://github.com/nickspaargaren/no-amazon) (Thanks Evan (785172845)(Telegram) for pointing this out)
+
 ## License
 
 Content of the **hosts** is licensed under a [MIT License](https://github.com/vdbhb59/hosts/blob/master/LICENSE).
