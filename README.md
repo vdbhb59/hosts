@@ -7,8 +7,9 @@ N.B.: I am not planning on filters yet, as that is a very heavy task, and takes 
 
 Following are the list of files present within the repository:
 
-01. **ALL** > Contains blockers for almost all sites. Will break many things, so please ask me to whitelist with the correct hosts-ip. The list is huge, so it is difficult to examine and identify what may cause the break. Try and use DNS66 or Blokada to determine the blocker.
+01. **ALL** > Contains blockers for almost all sites. Will break many things, so please ask me to whitelist with the correct hosts-ip. The list is huge, so it is difficult to examine and identify what may cause the break. Try and use DNS66 or Blokada to determine the cause.
 Size - Average `10-15 MB`, depending on dead entries.
+::Will be revamped or removed, depending on the time I get and the time taken to make this file, what it is... Soon..
 
 02. **Large** > Contains almost all blocklists, however, smaller in size compared to `ALL`. Probably `half the size` at times.
 
@@ -17,7 +18,7 @@ Size - Average `10-15 MB`, depending on dead entries.
 04. **Mini** > Minimal hosts, but with device wide (android only) ads blocked. The Ads-Block-List android blockers are included to cover device wide blocking.
 File size - `1.8-2.5 MB`. Caters to all low memory phones, or older version phones. Works on Jellybean too (may break few functions, minimum though).
 
-05. **YouTube** > Special hosts for YouTube advertisements.
+05. **YouTube** & **YouTube Ultimate** > Special hosts for YouTube advertisements.
 Server uses **`s.ytimg.com`** and **`manifest.googlevideo.com`** to push advertisements.
 Of late, **`youtube-nocookie.com`** is being used by Alphabet Incorporation to push advertisements, as well as video content, and thus may not work unless this is whitelisted.
 Hence, the following should be whitelisted:
@@ -31,8 +32,7 @@ Hence, the following should be whitelisted:
 **`0.0.0.0 www.youtube-nocookie.com`**
 **`0.0.0.0 youtube-nocookie.com`**
 
-06. **Ads-Block-List** > Contains special wildcard based (not wildcards itself) entries, which blocks device wide advertisements (cross platforms may have some issues based on localhosts), including applications in-ads as well. Contains **`graph.facebook.`** as well for facebook wide ads. Also contains the most notorious **`inmobi`** advert blocking. This list is not added by default as contains cross operating system blockers, and may interfere in different devices and operating systems. However, only the `Android` ports are added to block system wide advertisements.
-This list is also contributed by [`quindecim`](https://git.nixnet.xyz/quindecim/block). Thanks mate. 😁
+06. **Ads-Block-List** > Completely revamped the list, as was outdated. Moreover, the file now contains just the ad-blocks and advert-blockers. List is made up of "easy-list" host files, and various other hosts from different-different applications, and personal findings.
 
 N.B.: **`youtube.com`** and **`googlevideo.com`** are removed from blacklist.
 **`graph.facebook.com`** should be whitelisted if you want to use f**kbook.
