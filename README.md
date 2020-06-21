@@ -70,6 +70,14 @@ https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Midi.txt
 https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Mini.txt
 ```
 
+### DNS Filter
+Open DNS Filter > Tap on Advanced Settings > Tap on Configure Filter Update > Create a new filter by tapping on the Pencil icon > copy paste your choice of hosts from the below url > Tap on Active circle there > Tap on the (✔️) icon > Tap on Configure filter update to hide the menu > Tap on Advanced Settings > Tap on Restart
+```
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Large.txt
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Midi.txt
+https://raw.githubusercontent.com/vdbhb59/hosts/master/Hosts-Mini.txt
+```
+
 ## Recommended Whitelist
 
 - __Facebook main app__
