@@ -7,10 +7,10 @@ Following are the list of files present within the repository:
 
 01. **Large** > Contains almost all blocklists.
 
-02. **Midi** > Limited in hosts. Bit smaller in size.
+02. **Midi** > Limited in hosts. Bit smaller in size (`7-9 MB`).
 
 03. **Mini** > Minimal hosts, but with device wide (android only) ads blocked. The Ads-Block-List android blockers are included to cover device wide blocking.
-File size - `1.8-2.5 MB`. Caters to all low memory phones, or older version phones. Works on Jellybean too (may break few functions, minimum though).
+File size (has changed due to recent rise in spamverts) - `3-5 MB`. Caters to all low memory phones, or older version phones. Works on Jellybean too (may break few functions, minimum though).
 
 ## Supported Operating Systems
 
