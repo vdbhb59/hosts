@@ -10,9 +10,9 @@ set "source=%~dp0hosts"
 set "target=%windir%\System32\drivers\etc\hosts"
 
 echo.
-echo ==================
-echo #  vdbhb59 (TG)  #
-echo ==================
+echo =============
+echo #  vdbhb59  #
+echo =============
 echo.
 
 if exist "%source%" (
