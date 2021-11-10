@@ -5,7 +5,7 @@ See "Source" beliw for credits and source list. Lot of hosts are based on my own
 
 ## Supported Operating Systems
 
-***Android:*** For non-rooted devices, these host files can be used with [`DNS66`](https://f-droid.org/en/packages/org.jak_linux.dns66/), [`Blokada`](https://f-droid.org/en/packages/org.blokada.alarm/), [`Personal DNS Filter`](https://www.zenz-solutions.de/personaldnsfilter/) or [`Nebulo`](https://nebulo.app/source).
+***Android:*** For non-rooted devices, these host files can be used with [`Tracker Control`](https://f-droid.org/en/packages/net.kollnig.missioncontrol.fdroid/), [`DNS66`](https://f-droid.org/en/packages/org.jak_linux.dns66/), [`Blokada`](https://f-droid.org/en/packages/org.blokada.alarm/), [`Personal DNS Filter`](https://www.zenz-solutions.de/personaldnsfilter/) or [`Nebulo`](https://nebulo.app/source).
 The above softwares are free and open-source ad-blockers.
 
 For rooted devices, one can replace the default **hosts** file with the file of choice from here, after renaming the choice file to "**hosts**". Permissions should be **rw-r--r--** / **644**.
