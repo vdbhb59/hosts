@@ -1,7 +1,7 @@
 # hosts
 Curated host file with various domain blocks.
 
-See "Source" beliw for credits and source list. Lot of hosts are based on my own digging and compatible with almost all kind of adblockers.
+See "Source" below for credits and source list. Lot of hosts are based on my own digging and compatible with almost all kind of adblockers.
 
 ## Supported Operating Systems
 
@@ -22,7 +22,7 @@ In case the above is not working, you can try one of the following as well:
 
 [`SwitchHosts`](https://oldj.github.io/SwitchHosts) or [`HostsFileEditor`](https://github.com/scottlerch/HostsFileEditor)
 
-Use installer [`hostsinstaller`](https://github.com/vdbhb59/hosts/blob/master/Details/hosts_install_win.bat) with administrative rights in Windows.
+Use installer [`hostsinstaller`](https://github.com/vdbhb59/hosts/blob/master/hosts_install_win.bat) with administrative rights in Windows.
 
 **How to disable DNS CACHE services on Windows?**
 
@@ -88,13 +88,14 @@ https://f-droid.org/app/org.schabi.newpipe
 
 - __Source lists for my hosts files:__
 
-[Hectorm](https://hblock.molinero.dev/hosts) | [Hosts Vietnam](https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts) | [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts) | [PolishFiltersTeam](https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt) | [MetaMask](https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/hosts.txt) | [Bad-Boyz](https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts) | [AnudeepND](https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt) | [Badmojr](https://badmojr.github.io/1Hosts/Pro/hosts.txt) | [Easy List](https://easylist.to/easylist/easylist.txt) | [Easy List-Privacy](https://easylist.to/easylist/easyprivacy.txt) | [Easy List-Cookie](https://easylist-downloads.adblockplus.org/easylist-cookie.txt) | [Yous](https://raw.githubusercontent.com/yous/YousList/master/hosts.txt) | [YHosts](https://raw.githubusercontent.com/vokins/yhosts/master/hosts.txt) | [GBA-Samsung](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Samsung-AdBlock.txt) | [GBA-YT](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-YouTube-AdBlock.txt) | [GBA](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt) | [GBA-Xiaomi](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt) | [GBA-Le-Eco](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-LeEco-Extension.txt) | [Gloeyisk](https://raw.githubusercontent.com/gloeyisk/SystemlessHosts/master/system/etc/hosts) | [Idoo](https://gist.githubusercontent.com/idoo/dc809ae93a3da54fb24c92185dfffffa/raw/d19b6edd63cbd9154d20dce782198920c3bb770e/hosts-yt-ads)
+[No-Amazon](https://github.com/nickspaargaren/no-amazon) | [Hectorm](https://hblock.molinero.dev/hosts) | [Hosts Vietnam](https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts) | [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts) | [PolishFiltersTeam](https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt) | [MetaMask](https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/hosts.txt) | [Bad-Boyz](https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts) | [AnudeepND](https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt) | [Badmojr](https://badmojr.github.io/1Hosts/Pro/hosts.txt) | [Easy List](https://easylist.to/easylist/easylist.txt) | [Easy List-Privacy](https://easylist.to/easylist/easyprivacy.txt) | [Easy List-Cookie](https://easylist-downloads.adblockplus.org/easylist-cookie.txt) | [Yous](https://raw.githubusercontent.com/yous/YousList/master/hosts.txt) | [YHosts](https://raw.githubusercontent.com/vokins/yhosts/master/hosts.txt) | [GBA-Samsung](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Samsung-AdBlock.txt) | [GBA-YT](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-YouTube-AdBlock.txt) | [GBA](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt) | [GBA-Xiaomi](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt) | [GBA-Le-Eco](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-LeEco-Extension.txt) | [Gloeyisk](https://raw.githubusercontent.com/gloeyisk/SystemlessHosts/master/system/etc/hosts) | [Idoo](https://gist.githubusercontent.com/idoo/dc809ae93a3da54fb24c92185dfffffa/raw/d19b6edd63cbd9154d20dce782198920c3bb770e/hosts-yt-ads)
 
-- __Resultant Hosts File:__
+- __Resultant Host File:__
 
 [`hosts`](https://raw.githubusercontent.com/vdbhb59/hosts/master/hosts)
 
 - __Credits:__
+[No-Amazon](https://github.com/nickspaargaren/no-amazon) |
 [Easylist > Easylist](https://easylist.to/index.html) |
 [HBlock > Héctor Molinero Fernández](https://github.com/hectorm) |
 [HostsVN > Bigdragon](https://github.com/bigdargon) |
@@ -110,9 +111,6 @@ https://f-droid.org/app/org.schabi.newpipe
 [Systemless Hosts (Porn+FakeNews+Gambling) > Gilang Iskandar (Gloeyisk)](https://github.com/gloeyisk) -- May be removed soon, if not updated any longer.. |
 [No-Google > Nick Spaargaren](https://github.com/nickspaargaren/no-google) (Thanks Evan (785172845)(Telegram) for pointing this out) |
 [YouTube Hosts > Ivan Verevkin](https://github.com/idoo)
-
-To be used list:
-[No-Amazon](https://github.com/nickspaargaren/no-amazon) (Thanks Evan (785172845)(Telegram) for pointing this out)
 
 ## License
 
