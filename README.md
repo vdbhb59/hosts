@@ -50,10 +50,10 @@ sudo systemctl start hblock.service
 ```
 ___
 # Check Shasum the actual way
-**Organic:**<br>
+**Organic:**
 In terminal run: 
 
-For sha2:<br>
+For sha2:
 `shasum -a 256 filename/path`
 
 For sha1:<br>
@@ -61,17 +61,17 @@ For sha1:<br>
 
 Use your eyeballs and compare by sight the expected hash and the computed hash in the terminal. Eye strain might ensue.
 
-**Artisanal & organic:**<br>
+**Artisanal & organic:**
 Run the above commands. Copy the resulting shasum with Ctrl + C.
 In browser or file use Ctrl + F with your copied shasum; if you find a match, congrats your file is fine! If no match, your file might have been altered or tampered with. 
 
-**Inorganic, man-made:**<br>
+**Inorganic, man-made:**
 Use shasum check command. Runs diff and prints results in terminal.
 
 In terminal run:<br>
 `echo 'your_expected_shasum_here_followed_by_a_space *name_of_file_to_check_after_asterisk' | shasum -c`
 
-####References:
+References:
 ---
 [Alexis La Porte](https://gist.github.com/aklap/3c66f1991909f448e5ff)
 
