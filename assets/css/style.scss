@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
-site-footer-credits {
+header {
+  display: none;
+}
+
+footer {
   display: none;
 }
