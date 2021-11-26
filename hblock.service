@@ -1,0 +1,10 @@
+[Unit]
+Description=hBlock
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/env hblock
+PrivateTmp=yes
+ProtectHome=yes
+ProtectSystem=strict
+ReadWritePaths=/etc/hosts
