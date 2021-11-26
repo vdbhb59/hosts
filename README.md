@@ -3,6 +3,52 @@ Curated host file with various domain blocks.
 
 See "**Source**" below for credits and source list. Lot of hosts are based on my own digging and compatible with almost all kind of adblockers.
 
+# Install hblock
+
+```sh
+curl -o /tmp/hblock 'https://raw.githubusercontent.com/vdbhb59/hosts/master/hblock' \
+  && echo 'aeb47fce80baa1a47c907ab2b1af37de7fe68dff92fd4e7e4a5df075bf5b668f  /tmp/hblock' | shasum -c \
+  && sudo mv /tmp/hblock /usr/local/bin/hblock \
+  && sudo chown 0:0 /usr/local/bin/hblock \
+  && sudo chmod 755 /usr/local/bin/hblock
+```
+
+# Install systemd service and timer units
+
+The following commands will schedule a daily update of the hosts file. See [systemd-timers](https://wiki.archlinux.org/index.php/systemd/Timers) for more information.
+
+```sh
+curl -o '/tmp/hblock.#1' 'https://raw.githubusercontent.com/vdbhb59/hosts/master/hblock.{service,timer}' \
+  && echo '08b736382cb9dfd39df1207a3e90b068f5325a41dc8254d83fde5d4540ba8b5b /tmp/hblock.service' | shasum -c \
+  && echo '87a7ba5067d4c565aca96659b0dce230471a6ba35fbce1d3e9d02b264da4dc38 /tmp/hblock.timer' | shasum -c \
+  && sudo mv /tmp/hblock.{service,timer} /etc/systemd/system/ \
+  && sudo chown 0:0 /etc/systemd/system/hblock.{service,timer} \
+  && sudo chmod 644 /etc/systemd/system/hblock.{service,timer} \
+  && sudo systemctl daemon-reload \
+  && sudo systemctl enable hblock.timer \
+  && sudo systemctl start hblock.timer
+```
+
+# Modify default options with environment variables
+
+To change the default options instead of modifying the original service it is possible to override its properties.
+
+For example, to have multiple domains on the same line and enable regular expressions in the allow-list, create the file
+`/etc/systemd/system/hblock.service.d/override.conf` with the following content:
+
+```
+[Service]
+Environment=HBLOCK_WRAP=20
+Environment=HBLOCK_REGEX=true
+```
+
+Then reload the systemd configuration and start the service:
+
+```sh
+sudo systemctl daemon-reload
+sudo systemctl start hblock.service
+```
+
 ## Supported Operating Systems
 
 ***Android:*** For non-rooted devices, these host files can be used with [`Tracker Control`](https://f-droid.org/en/packages/net.kollnig.missioncontrol.fdroid/), [`DNS66`](https://f-droid.org/en/packages/org.jak_linux.dns66/), [`Blokada`](https://f-droid.org/en/packages/org.blokada.alarm/), [`Personal DNS Filter`](https://www.zenz-solutions.de/personaldnsfilter/) or [`Nebulo`](https://nebulo.app/source).
@@ -22,7 +68,7 @@ In case the above is not working, you can try one of the following as well:
 
 [`SwitchHosts`](https://oldj.github.io/SwitchHosts) or [`HostsFileEditor`](https://github.com/scottlerch/HostsFileEditor)
 
-Use installer [`hostsinstaller`](https://github.com/vdbhb59/hosts/blob/master/hosts_install_win.bat) with administrative rights in Windows.
+Use installer [`hostsinstaller`](https://github.com/vdbhb59/hosts/master/hosts_install_win.bat) with administrative rights in Windows.
 
 **How to disable DNS CACHE services on Windows?**
 
@@ -114,4 +160,4 @@ https://f-droid.org/app/org.schabi.newpipe
 
 ## License
 
-Content of the **hosts** is licensed under a [MIT License](https://github.com/vdbhb59/hosts/blob/master/Details/LICENSE).
+Content of the **hosts** is licensed under a [MIT License](https://github.com/vdbhb59/hosts/blob/master/LICENSE).
