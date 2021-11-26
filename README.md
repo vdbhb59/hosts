@@ -7,7 +7,7 @@ ___
 
 ```sh
 curl -o /tmp/hblock 'https://raw.githubusercontent.com/vdbhb59/hosts/master/hblock' \
-  && echo 'aeb47fce80baa1a47c907ab2b1af37de7fe68dff92fd4e7e4a5df075bf5b668f /tmp/hblock' | shasum -c \
+  && echo 'aeb47fce80baa1a47c907ab2b1af37de7fe68dff92fd4e7e4a5df075bf5b668f  /tmp/hblock' | shasum -c \
   && sudo mv /tmp/hblock /usr/local/bin/hblock \
   && sudo chown 0:0 /usr/local/bin/hblock \
   && sudo chmod 755 /usr/local/bin/hblock
@@ -19,8 +19,8 @@ The following commands will schedule a daily update of the hosts file. See [syst
 
 ```sh
 curl -o '/tmp/hblock.#1' 'https://raw.githubusercontent.com/vdbhb59/hosts/master/hblock.{service,timer}' \
-  && echo '08b736382cb9dfd39df1207a3e90b068f5325a41dc8254d83fde5d4540ba8b5b /tmp/hblock.service' | shasum -c \
-  && echo '87a7ba5067d4c565aca96659b0dce230471a6ba35fbce1d3e9d02b264da4dc38 /tmp/hblock.timer' | shasum -c \
+  && echo '08b736382cb9dfd39df1207a3e90b068f5325a41dc8254d83fde5d4540ba8b5b  /tmp/hblock.service' | shasum -c \
+  && echo '87a7ba5067d4c565aca96659b0dce230471a6ba35fbce1d3e9d02b264da4dc38  /tmp/hblock.timer' | shasum -c \
   && sudo mv /tmp/hblock.{service,timer} /etc/systemd/system/ \
   && sudo chown 0:0 /etc/systemd/system/hblock.{service,timer} \
   && sudo chmod 644 /etc/systemd/system/hblock.{service,timer} \
