@@ -2,7 +2,7 @@
 Curated host file with various domain blocks.
 
 See "**Source**" below for credits and source list. Lot of hosts are based on my own digging and compatible with almost all kind of adblockers.
-
+___
 # Install hblock
 
 ```sh
@@ -12,7 +12,7 @@ curl -o /tmp/hblock 'https://raw.githubusercontent.com/vdbhb59/hosts/master/hblo
   && sudo chown 0:0 /usr/local/bin/hblock \
   && sudo chmod 755 /usr/local/bin/hblock
 ```
-
+___
 # Install systemd service and timer units
 
 The following commands will schedule a daily update of the hosts file. See [systemd-timers](https://wiki.archlinux.org/index.php/systemd/Timers) for more information.
@@ -28,7 +28,7 @@ curl -o '/tmp/hblock.#1' 'https://raw.githubusercontent.com/vdbhb59/hosts/master
   && sudo systemctl enable hblock.timer \
   && sudo systemctl start hblock.timer
 ```
-
+___
 # Modify default options with environment variables
 
 To change the default options instead of modifying the original service it is possible to override its properties.
@@ -48,7 +48,34 @@ Then reload the systemd configuration and start the service:
 sudo systemctl daemon-reload
 sudo systemctl start hblock.service
 ```
+___
+# Check Shasum the actual way
+**Organic:**<br>
+In terminal run: 
 
+For sha2:<br>
+`shasum -a 256 filename/path`
+
+For sha1:<br>
+`shasum -a 1 filename/path`
+
+Use your eyeballs and compare by sight the expected hash and the computed hash in the terminal. Eye strain might ensue.
+
+**Artisanal & organic:**<br>
+Run the above commands. Copy the resulting shasum with Ctrl + C.
+In browser or file use Ctrl + F with your copied shasum; if you find a match, congrats your file is fine! If no match, your file might have been altered or tampered with. 
+
+**Inorganic, man-made:**<br>
+Use shasum check command. Runs diff and prints results in terminal.
+
+In terminal run:<br>
+`echo 'your_expected_shasum_here_followed_by_a_space *name_of_file_to_check_after_asterisk' | shasum -c`
+
+####References:
+---
+[Alexis La Porte](https://gist.github.com/aklap/3c66f1991909f448e5ff)
+
+___
 ## Supported Operating Systems
 
 ***Android:*** For non-rooted devices, these host files can be used with [`Tracker Control`](https://f-droid.org/en/packages/net.kollnig.missioncontrol.fdroid/), [`DNS66`](https://f-droid.org/en/packages/org.jak_linux.dns66/), [`Blokada`](https://f-droid.org/en/packages/org.blokada.alarm/), [`Personal DNS Filter`](https://www.zenz-solutions.de/personaldnsfilter/) or [`Nebulo`](https://nebulo.app/source).
@@ -69,7 +96,7 @@ In case the above is not working, you can try one of the following as well:
 [`SwitchHosts`](https://oldj.github.io/SwitchHosts) or [`HostsFileEditor`](https://github.com/scottlerch/HostsFileEditor)
 
 Use installer [`hostsinstaller`](https://github.com/vdbhb59/hosts/master/hosts_install_win.bat) with administrative rights in Windows.
-
+___
 **How to disable DNS CACHE services on Windows?**
 
 1) Hit Win+R & type `regedit` & press enter.
@@ -77,7 +104,7 @@ Use installer [`hostsinstaller`](https://github.com/vdbhb59/hosts/master/hosts_i
 2) Go to `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Dnscache`, and locate the "Start" registry key. Now change its value from 2 (Automatic) to 4 (Disabled)
 
 3) Restart computer once & now change your host file with bigger SIZE.
-
+___
 ## Usage guide
 
 ### TrackerControl [`TC`](https://f-droid.org/en/packages/net.kollnig.missioncontrol.fdroid/)
@@ -129,17 +156,17 @@ For YT users, use NewPipe. It is fully open sourced.
 ```
 https://f-droid.org/app/org.schabi.newpipe
 ```
-
+___
 ## Sources
 
 - __Source lists for my hosts files:__
 
 [No-Amazon](https://github.com/nickspaargaren/no-amazon) | [Hectorm](https://hblock.molinero.dev/hosts) | [Hosts Vietnam](https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts) | [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts) | [PolishFiltersTeam](https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt) | [MetaMask](https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/hosts.txt) | [Bad-Boyz](https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts) | [AnudeepND](https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt) | [Badmojr](https://badmojr.github.io/1Hosts/Pro/hosts.txt) | [Easy List](https://easylist.to/easylist/easylist.txt) | [Easy List-Privacy](https://easylist.to/easylist/easyprivacy.txt) | [Easy List-Cookie](https://easylist-downloads.adblockplus.org/easylist-cookie.txt) | [Yous](https://raw.githubusercontent.com/yous/YousList/master/hosts.txt) | [YHosts](https://raw.githubusercontent.com/vokins/yhosts/master/hosts.txt) | [GBA-Samsung](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Samsung-AdBlock.txt) | [GBA-YT](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-YouTube-AdBlock.txt) | [GBA](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt) | [GBA-Xiaomi](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt) | [GBA-Le-Eco](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-LeEco-Extension.txt) | [Gloeyisk](https://raw.githubusercontent.com/gloeyisk/SystemlessHosts/master/system/etc/hosts) | [Idoo](https://gist.githubusercontent.com/idoo/dc809ae93a3da54fb24c92185dfffffa/raw/d19b6edd63cbd9154d20dce782198920c3bb770e/hosts-yt-ads)
-
+___
 - __Resultant Host File:__
 
 [`hosts`](https://raw.githubusercontent.com/vdbhb59/hosts/master/hosts)
-
+___
 - __Credits:__
 [No-Amazon](https://github.com/nickspaargaren/no-amazon) |
 [Easylist > Easylist](https://easylist.to/index.html) |
@@ -158,6 +185,7 @@ https://f-droid.org/app/org.schabi.newpipe
 [No-Google > Nick Spaargaren](https://github.com/nickspaargaren/no-google) (Thanks Evan (785172845)(Telegram) for pointing this out) |
 [YouTube Hosts > Ivan Verevkin](https://github.com/idoo)
 
+___
 ## License
 
 Content of the **hosts** is licensed under a [MIT License](https://github.com/vdbhb59/hosts/blob/master/LICENSE).
