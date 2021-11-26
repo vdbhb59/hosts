@@ -7,7 +7,7 @@ See "**Source**" below for credits and source list. Lot of hosts are based on my
 
 ```sh
 curl -o /tmp/hblock 'https://raw.githubusercontent.com/vdbhb59/hosts/master/hblock' \
-  && echo 'aeb47fce80baa1a47c907ab2b1af37de7fe68dff92fd4e7e4a5df075bf5b668f  /tmp/hblock' | shasum -c \
+  && echo 'aeb47fce80baa1a47c907ab2b1af37de7fe68dff92fd4e7e4a5df075bf5b668f /tmp/hblock' | shasum -c \
   && sudo mv /tmp/hblock /usr/local/bin/hblock \
   && sudo chown 0:0 /usr/local/bin/hblock \
   && sudo chmod 755 /usr/local/bin/hblock
