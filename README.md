@@ -1,7 +1,7 @@
 # hosts
 Curated host file with various domain blocks.
 
-See "**Source**" below for credits and source list. Lot of hosts are based on my own digging and compatible with almost all kind of adblockers.
+See ["**Source**"](https://github.com/vdbhb59/hosts#sources) below for credits and source list. Lot of hosts are based on my own digging and compatible with almost all kind of adblockers.
 ___
 # Install hblock
 
