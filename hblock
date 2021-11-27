@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# License:    MIT, https://opensource.org/licenses/MIT
+# License:    🄯 MIT, https://opensource.org/licenses/MIT 🄯
 
 set -eu
 export LC_ALL='C'
@@ -304,8 +304,6 @@ showHelp() {
 		    Show version number and quit.%NL
 		 -h, --help%NL
 		    Show this help and quit.
-
-		Report bugs to: <https://github.com/hectorm/hblock/issues>
 	EOF
 	)"
 	exit 0
@@ -316,9 +314,7 @@ showVersion() {
 	getMetadata() { sed -ne 's|^# '"${1:?}"':[[:blank:]]*\(.\{1,\}\)$|\1|p' -- "${0:?}"; }
 	printf '%s\n' "$(cat <<-EOF
 		hBlock $(getMetadata 'Version')
-		Author: $(getMetadata 'Author')
 		License: $(getMetadata 'License')
-		Repository: $(getMetadata 'Repository')
 	EOF
 	)"
 	exit 0
