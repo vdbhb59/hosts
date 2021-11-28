@@ -105,6 +105,7 @@ ___
 2) Go to `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Dnscache`, and locate the "Start" registry key. Now change its value from 2 (Automatic) to 4 (Disabled)
 
 3) Restart computer once & now change your host file with bigger SIZE.
+
 ___
 ## Usage guide
 
@@ -167,6 +168,7 @@ ___
 - __Resultant Host File:__
 
 [`hosts`](https://raw.githubusercontent.com/vdbhb59/hosts/master/hosts)
+
 ___
 - __Credits:__
 [No-Amazon](https://github.com/nickspaargaren/no-amazon) |
