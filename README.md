@@ -96,6 +96,7 @@ In case the above is not working, you can try one of the following as well:
 [`SwitchHosts`](https://oldj.github.io/SwitchHosts) or [`HostsFileEditor`](https://github.com/scottlerch/HostsFileEditor)
 
 Use installer [`hostsinstaller`](https://github.com/vdbhb59/hosts/master/hosts_install_win.bat) with administrative rights in Windows.
+
 ___
 **How to disable DNS CACHE services on Windows?**
 
