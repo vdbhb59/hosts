@@ -2,6 +2,7 @@
 Curated host file with various domain blocks.
 
 See ["**Source**"](https://github.com/vdbhb59/hosts#sources) below for credits and source list. Lot of hosts are based on my own digging and compatible with almost all kind of adblockers.
+
 ___
 # Install hblock
 Thanks to [Hector](https://github.com/hectorm/) for this methodology.
@@ -173,6 +174,7 @@ ___
 
 ___
 - __Credits:__
+
 [No-Amazon](https://github.com/nickspaargaren/no-amazon) |
 [Easylist > Easylist](https://easylist.to/index.html) |
 [HBlock > Héctor Molinero Fernández](https://github.com/hectorm) |
