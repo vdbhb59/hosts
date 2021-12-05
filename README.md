@@ -51,7 +51,7 @@ sudo systemctl daemon-reload
 sudo systemctl start hblock.service
 ```
 ___
-# Check Shasum the actual way
+# Check Shasum the actual way (Thanks [Alexis La Porte](https://gist.github.com/aklap/3c66f1991909f448e5ff) for this.)
 **Organic:**
 In terminal run: 
 
@@ -72,10 +72,6 @@ Use shasum check command. Runs diff and prints results in terminal.
 
 In terminal run:<br>
 `echo 'your_expected_shasum_here_followed_by_a_space *name_of_file_to_check_after_asterisk' | shasum -c`
-
-References:
----
-[Alexis La Porte](https://gist.github.com/aklap/3c66f1991909f448e5ff)
 
 ___
 ## Supported Operating Systems
