@@ -51,7 +51,8 @@ sudo systemctl daemon-reload
 sudo systemctl start hblock.service
 ```
 ___
-# Check Shasum the actual way (Thanks [Alexis La Porte](https://gist.github.com/aklap/3c66f1991909f448e5ff) for this.)
+# Check Shasum the actual way
+(Thanks [Alexis La Porte](https://gist.github.com/aklap/3c66f1991909f448e5ff) for this.)
 **Organic:**
 In terminal run: 
 
