@@ -83,6 +83,9 @@ HBLOCK_SOURCES_BUILTIN="$(cat <<-'EOF'
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/ublock-privacy/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/urlhaus/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/winhelp2002.mvps.org/list.txt
+	https://raw.githubusercontent.com/gioxx/xfiles/master/filtri.txt
+	https://raw.githubusercontent.com/gioxx/xfiles/master/facebook.txt
+	https://raw.githubusercontent.com/gioxx/xfiles/master/siteblock.txt
 #	https://adaway.org/hosts.txt
 #	https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
 #	https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers_justdomains.txt
