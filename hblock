@@ -43,7 +43,6 @@ HBLOCK_FOOTER_BUILTIN=''
 # Built-in sources.
 HBLOCK_SOURCES_BUILTIN="$(cat <<-'EOF'
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/adaway.org/list.txt
-	https://raw.githubusercontent.com/hectorm/hmirror/master/data/adblock-nocoin-list/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/adguard-cname-trackers/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/adguard-simplified/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/dandelionsprout-nordic/list.txt
@@ -86,8 +85,10 @@ HBLOCK_SOURCES_BUILTIN="$(cat <<-'EOF'
 	https://raw.githubusercontent.com/gioxx/xfiles/master/filtri.txt
 	https://raw.githubusercontent.com/gioxx/xfiles/master/facebook.txt
 	https://raw.githubusercontent.com/gioxx/xfiles/master/siteblock.txt
+	https://raw.githubusercontent.com/gioxx/xfiles/master/upd.txt
+	https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
+#	https://raw.githubusercontent.com/hectorm/hmirror/master/data/adblock-nocoin-list/list.txt
 #	https://adaway.org/hosts.txt
-#	https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
 #	https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers_justdomains.txt
 #	https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 #	https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
