@@ -153,9 +153,12 @@ Frost for Facebook (A fast and extensive third party wrapper for Facebook.)
 ```
 https://f-droid.org/app/com.pitchedapps.frost
 ```
-For YT users, use NewPipe. It is fully open sourced.
+For YT users, use [NewPipe](https://github.com/TeamNewPipe/NewPipe)/[SkyTube](https://github.com/SkyTubeTeam/SkyTube). They are fully open sourced.
 ```
 https://f-droid.org/app/org.schabi.newpipe
+```
+```
+https://f-droid.org/app/free.rm.skytube.oss/
 ```
 ___
 ## Sources
