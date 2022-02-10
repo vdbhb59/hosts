@@ -5,7 +5,7 @@ See ["**Source**"](https://github.com/vdbhb59/hosts#sources) below for credits a
 
 ___
 # Install hblock
-Thanks to [Héctor Molinero Fernández](https://github.com/hectorm/) for this methodology.
+Thanks to [Héctor Molinero Fernández](https://github.com/hectorm/hblock/blob/master/hblock) for this methodology.
 
 ```sh
 curl -o /tmp/hblock 'https://raw.githubusercontent.com/vdbhb59/hosts/master/hblock' \
