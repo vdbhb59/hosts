@@ -1,4 +1,4 @@
-# 🄯hosts🄯
+# host
 Curated host file with various domain blocks.
 
 See ["**Source**"](https://github.com/vdbhb59/hosts#sources) below for credits and source list. Lot of hosts are based on my own digging and compatible with almost all kind of adblockers.
@@ -196,4 +196,4 @@ ___
 ___
 ## License
 
-Content of the **hosts** is licensed under a [🄯MIT License🄯](https://github.com/vdbhb59/hosts/blob/master/LICENSE).
+Content of the **hosts** is licensed under a [MIT License](https://github.com/vdbhb59/hosts/blob/master/LICENSE).
