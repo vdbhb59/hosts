@@ -1,5 +1,5 @@
-:: Author:     @vdbhb59 🄯FLOSSbOxIN🄯
-:: License:    MIT, https://opensource.org/licenses/MIT
+:: Author:     @vdbhb59, FLOSSbOxI
+:: License:    MIT, https://opensource.org/licenses/
 
 :: This script needs administrator privileges.
 :: WARNING: consider disabling "DNS Client" service if your machine slows down.
@@ -11,7 +11,7 @@ set "target=%windir%\System32\drivers\etc\hosts"
 
 echo.
 echo ==================
-echo #  🄯FLOSSbOxIN🄯  #
+echo #   FLOSSbOxIN   #
 echo ==================
 echo.
 
