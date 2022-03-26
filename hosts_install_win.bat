@@ -1,4 +1,4 @@
-:: Author:     @vdbhb59, FLOSSbOxI
+:: Author:     @vdbhb59, @FLOSSbOxIN
 :: License:    MIT, https://opensource.org/licenses/
 
 :: This script needs administrator privileges.
@@ -11,7 +11,7 @@ set "target=%windir%\System32\drivers\etc\hosts"
 
 echo.
 echo ==================
-echo #   FLOSSbOxIN   #
+echo #  @FLOSSbOxIN   #
 echo ==================
 echo.
 
