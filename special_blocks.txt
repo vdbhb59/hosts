@@ -12,6 +12,7 @@ ff02::2         ip6-allrouters
 ff02::3         ip6-allhosts
 # END HEADER
 # BEGIN BLOCKLIST
+# Microsoft telemetry blocks
 0.0.0.0	choice.microsoft.com
 0.0.0.0	choice.microsoft.com.nstac.net
 0.0.0.0	df.telemetry.microsoft.com
@@ -188,4 +189,4 @@ ff02::3         ip6-allhosts
 0.0.0.0 cdn.download.sweetpacks.com
 0.0.0.0 cdn.dpdownload.com
 0.0.0.0 cdn.visualbee.net
-#end
+# end
