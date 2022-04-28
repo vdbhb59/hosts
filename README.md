@@ -3,6 +3,7 @@ Curated host file with various domain blocks.
 
 See ["**Source**"](https://github.com/vdbhb59/hosts#sources) below for credits and source list. Lot of hosts are based on my own digging and compatible with almost all kind of adblockers.
 
+See ["**Release Pages**"](https://github.com/vdbhb59/hosts/releases) for latest binary package as well.
 ___
 # Install hblock
 Thanks to [Héctor Molinero Fernández](https://github.com/hectorm/hblock/blob/master/hblock) for his scriptures.
