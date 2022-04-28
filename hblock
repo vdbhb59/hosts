@@ -1,15 +1,13 @@
 #!/bin/sh
 
-# License:    🄯 MIT, https://opensource.org/licenses/MIT 🄯
-
 set -eu
 export LC_ALL='C'
 
 # Metadata.
-if [ -z "${HBLOCK_VERSION+x}"    ]; then HBLOCK_VERSION='3.3.1'; fi
-if [ -z "${HBLOCK_AUTHOR+x}"     ]; then HBLOCK_AUTHOR='FLOSSbOxIN <dev@flossboxin.org.in>'; fi
-if [ -z "${HBLOCK_LICENSE+x}"    ]; then HBLOCK_LICENSE='🄯 MIT, https://opensource.org/licenses/MIT 🄯'; fi
-if [ -z "${HBLOCK_REPOSITORY+x}" ]; then HBLOCK_REPOSITORY='https://github.com/vdbhb59/hosts'; fi
+if [ -z "${HOSTS_VERSION+x}"    ]; then HOSTS_VERSION='3.3.2'; fi
+if [ -z "${HOSTS_AUTHOR+x}"     ]; then HOSTS_AUTHOR='FLOSSbOxIN <dev@flossboxin.org.in>'; fi
+if [ -z "${HOSTS_LICENSE+x}"    ]; then HOSTS_LICENSE='MIT, https://opensource.org/licenses/MIT'; fi
+if [ -z "${HOSTS_REPOSITORY+x}" ]; then HOSTS_REPOSITORY='https://github.com/vdbhb59/hosts/blob/master/hblock'; fi
 
 # Emulate ksh if the shell is zsh.
 if [ -n "${ZSH_VERSION-}" ]; then emulate -L ksh; fi
@@ -43,6 +41,7 @@ HBLOCK_FOOTER_BUILTIN=''
 # Built-in sources.
 HBLOCK_SOURCES_BUILTIN="$(cat <<-'EOF'
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/adaway.org/list.txt
+	https://raw.githubusercontent.com/hectorm/hmirror/master/data/adblock-nocoin-list/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/adguard-cname-trackers/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/adguard-simplified/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/dandelionsprout-nordic/list.txt
@@ -82,12 +81,6 @@ HBLOCK_SOURCES_BUILTIN="$(cat <<-'EOF'
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/ublock-privacy/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/urlhaus/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/winhelp2002.mvps.org/list.txt
-	https://raw.githubusercontent.com/gioxx/xfiles/master/filtri.txt
-	https://raw.githubusercontent.com/gioxx/xfiles/master/facebook.txt
-	https://raw.githubusercontent.com/gioxx/xfiles/master/siteblock.txt
-	https://raw.githubusercontent.com/gioxx/xfiles/master/upd.txt
-	https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
-	https://raw.githubusercontent.com/hectorm/hmirror/master/data/adblock-nocoin-list/list.txt
 #	https://adaway.org/hosts.txt
 #	https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers_justdomains.txt
 #	https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
@@ -150,20 +143,19 @@ EOF
 
 # Built-in allowlist.
 HBLOCK_ALLOWLIST_BUILTIN=''
-
+	
 # Built-in denylist.
 HBLOCK_DENYLIST_BUILTIN="$(cat <<-'EOF'
-	#
 	#
 EOF
 )"
 
 # Parse command line options.
 optParse() {
+	SEP="$(printf '\037')"; POS=''
 	while [ "${#}" -gt '0' ]; do
 		case "${1?}" in
-			# Short options that accept an argument need a "*" in their pattern because they can be
-			# found in the "-A<value>" form.
+			# Short options that accept a value need a "*" in their pattern because they can be found in the "-A<value>" form.
 			'-O'*|'--output') optArgStr "${@-}"; outputFile="${optArg?}"; shift "${optShift:?}" ;;
 			'-H'*|'--header') optArgStr "${@-}"; headerFile="${optArg?}"; shift "${optShift:?}" ;;
 			'-F'*|'--footer') optArgStr "${@-}"; footerFile="${optArg?}"; shift "${optShift:?}" ;;
@@ -183,16 +175,16 @@ optParse() {
 			'-x'*|'--color') optArgStr "${@-}"; color="${optArg?}"; shift "${optShift:?}" ;;
 			'-v' |'--version') showVersion ;;
 			'-h' |'--help') showHelp ;;
-			# If "--" is found, the remaining positional arguments are saved and the parsing ends.
-			--) shift; posArgs="${posArgs-} ${*-}"; break ;;
+			# If "--" is found, the remaining positional parameters are saved and the parsing ends.
+			--) shift; _IFS="${IFS?}"; IFS="${SEP:?}"; POS="${POS-}${POS+${SEP:?}}${*-}"; IFS="${_IFS?}"; break ;;
 			# If a long option in the form "--opt=value" is found, it is split into "--opt" and "value".
 			--*=*) optSplitEquals "${@-}"; shift; set -- "${optName:?}" "${optArg?}" "${@-}"; continue ;;
 			# If an option did not match any pattern, an error is thrown.
 			-?|--*) optDie "Illegal option ${1:?}" ;;
 			# If multiple short options in the form "-AB" are found, they are split into "-A" and "-B".
 			-?*) optSplitShort "${@-}"; shift; set -- "${optAName:?}" "${optBName:?}" "${@-}"; continue ;;
-			# If a positional argument is found, it is saved.
-			*) posArgs="${posArgs-} ${1?}" ;;
+			# If a positional parameter is found, it is saved.
+			*) POS="${POS-}${POS+${SEP:?}}${1?}" ;;
 		esac
 		shift
 	done
@@ -319,7 +311,6 @@ showHelp() {
 		 -h, --help%NL
 		    Show this help and quit.
 
-		Report bugs to: <https://github.com/hectorm/hblock/issues>
 	EOF
 	)"
 	exit 0
@@ -328,10 +319,10 @@ showHelp() {
 # Show version number and quit.
 showVersion() {
 	printf '%s\n' "$(cat <<-EOF
-		hBlock ${HBLOCK_VERSION:?}
-		Author: ${HBLOCK_AUTHOR:?}
-		License: ${HBLOCK_LICENSE:?}
-		Repository: ${HBLOCK_REPOSITORY:?}
+		hBlock ${HOSTS_VERSION:?}
+		Author: ${HOSTS_AUTHOR:?}
+		License: ${HOSTS_LICENSE:?}
+		Repository: ${HOSTS_REPOSITORY:?}
 	EOF
 	)"
 	exit 0
@@ -540,7 +531,7 @@ main() {
 
 	# Parse command line options.
 	# shellcheck disable=SC2086
-	{ optParse "${@-}"; set -- ${posArgs-} >/dev/null; }
+	{ optParse "${@-}"; _IFS="${IFS?}"; IFS="${SEP:?}"; set -- ${POS-} >/dev/null; IFS="${_IFS?}"; }
 
 	# Define terminal colors if the color option is enabled or in auto mode if STDOUT is attached to a TTY and the
 	# "NO_COLOR" variable is not set (https://no-color.org).
@@ -646,8 +637,10 @@ main() {
 			touch -- "${sourceDlFile:?}.part"
 			{
 				if fetchUrl "${url:?}" > "${sourceDlFile:?}.part"; then
-					printf '\n' >> "${sourceDlFile:?}.part"
-					mv -- "${sourceDlFile:?}.part" "${sourceDlFile:?}"
+					if [ -e "${sourceDlFile:?}.part" ]; then
+						printf '\n' >> "${sourceDlFile:?}.part"
+						mv -- "${sourceDlFile:?}.part" "${sourceDlFile:?}"
+					fi
 				else
 					rm -f -- "${sourceDlFile:?}.part"
 					if [ "${continue:?}" = 'true' ]; then
