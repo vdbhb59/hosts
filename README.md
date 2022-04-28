@@ -5,11 +5,11 @@ See ["**Source**"](https://github.com/vdbhb59/hosts#sources) below for credits a
 
 ___
 # Install hblock
-Thanks to [Héctor Molinero Fernández](https://github.com/hectorm/hblock/blob/master/hblock) for this methodology.
+Thanks to [Héctor Molinero Fernández](https://github.com/hectorm/hblock/blob/master/hblock) for his scriptures.
 
 ```sh
 curl -o /tmp/hblock 'https://raw.githubusercontent.com/vdbhb59/hosts/master/hblock' \
-  && echo '3e63ea3077c83cfdc1970359cfd46192c0c077f262c2a64daa7e4b8686518aed  /tmp/hblock' | shasum -c \
+  && echo '72664e740c5c74e7c3d442e90356b4387668045c  /tmp/hblock' | shasum -c \
   && sudo mv /tmp/hblock /usr/local/bin/hblock \
   && sudo chown 0:0 /usr/local/bin/hblock \
   && sudo chmod 755 /usr/local/bin/hblock
