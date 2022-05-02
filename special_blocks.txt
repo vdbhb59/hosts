@@ -149,7 +149,6 @@ ff02::3         ip6-allhosts
 0.0.0. ereg.wip3.adobe.com
 0.0.0. wwis-dubc1-vip60.adobe.com
 # adobe end
-# unchecky_begin
 # These rules were added to block advertising software modules
 0.0.0.0 0.0.0.0 # fix for traceroute and netstat display anomaly
 0.0.0.0 tracking.opencandy.com.s3.amazonaws.com
