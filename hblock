@@ -49,6 +49,7 @@ HBLOCK_SOURCES_BUILTIN="$(cat <<-'EOF'
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/easylist-ara/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/easylist-bul/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/easylist-ces-slk/list.txt
+	https://raw.githubusercontent.com/vdbhb59/hosts/master/special_blocks.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/easylist-deu/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/easylist-fra/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/easylist-heb/list.txt
