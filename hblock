@@ -765,7 +765,7 @@ main() {
 		# Append banner to the output file.
 		if [ -n "${C?}" ]; then
 			cat <<-EOF
-				${C?} Generated with hBlock ${HBLOCK_VERSION:?} (${HBLOCK_REPOSITORY:?})
+				${C?} Generated with hBlock ${HOSTS_VERSION:?} (${HOSTS_REPOSITORY:?})
 				${C?} Blocked domains: ${blocklistCount:?}
 			EOF
 		fi
