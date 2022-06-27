@@ -4,7 +4,7 @@ set -eu
 export LC_ALL='C'
 
 # Metadata.
-if [ -z "${HOSTS_VERSION+x}"    ]; then HOSTS_VERSION='3.3.2'; fi
+if [ -z "${HOSTS_VERSION+x}"    ]; then HOSTS_VERSION='3.4.0'; fi
 if [ -z "${HOSTS_AUTHOR+x}"     ]; then HOSTS_AUTHOR='FLOSSbOxIN <dev@flossboxin.org.in>'; fi
 if [ -z "${HOSTS_LICENSE+x}"    ]; then HOSTS_LICENSE='MIT, https://opensource.org/licenses/MIT'; fi
 if [ -z "${HOSTS_REPOSITORY+x}" ]; then HOSTS_REPOSITORY='https://github.com/vdbhb59/hosts/blob/master/hblock'; fi
@@ -768,8 +768,12 @@ main() {
 				${C?} Generated with hBlock ${HOSTS_VERSION:?} (${HOSTS_REPOSITORY:?})
 				${C?} Blocked domains: ${blocklistCount:?}
 			EOF
+			if [ -z "${SOURCE_DATE_EPOCH+x}" ]; then
+				cat <<-EOF
+					${C?} Date: $(date)
+				EOF
+			fi
 		fi
-
 		# If the header file is not empty, it is appended to the output file.
 		if [ -s "${headerFile:?}" ]; then
 			[ -z "${C?}" ] || printf '\n%s\n' "${C?} BEGIN HEADER"
