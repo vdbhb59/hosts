@@ -1,4 +1,4 @@
-# Blocked domains: 224
+# Blocked domains: 170
 
 # BEGIN HEADER
 127.0.0.1       localhost 
@@ -12,7 +12,6 @@ ff02::2         ip6-allrouters
 ff02::3         ip6-allhosts
 # END HEADER
 # BEGIN BLOCKLIST
-# Microsoft telemetry blocks
 0.0.0.0 choice.microsoft.com
 0.0.0.0 choice.microsoft.com.nstac.net
 0.0.0.0 df.telemetry.microsoft.com
@@ -48,11 +47,8 @@ ff02::3         ip6-allhosts
 0.0.0.0 diagnostics.support.microsoft.com
 0.0.0.0 i1.services.social.microsoft.com
 0.0.0.0 i1.services.social.microsoft.com.nsatc.net
-0.0.0.0 vortex-bn2.metron.live.com.nsatc.net
-0.0.0.0 vortex-cy2.metron.live.com.nsatc.net
 0.0.0.0 ca.telemetry.microsoft.com
 0.0.0.0 cache.datamart.windows.com
-0.0.0.0 diagnostics.support.microsoft.com
 0.0.0.0 spynet2.microsoft.com
 0.0.0.0 spynetalt.microsoft.com
 0.0.0.0 a.ads1.msn.com
@@ -125,16 +121,15 @@ ff02::3         ip6-allhosts
 0.0.0.0 survey.watson.microsoft.com
 0.0.0.0 view.atdmt.com
 0.0.0.0 www.msftncsi.com
-# adobe start
-0.0.0.0 lmlicenses.wip4.adobe.com
 0.0.0.0 lm.licenses.adobe.com
+0.0.0.0 lmlicenses.wip4.adobe.com
+0.0.0.0 lm-prd-da1.licenses.adobe.com
+0.0.0.0 activate.adobe.com
+0.0.0.0 activate.wip4.adobe.com
+0.0.0.0 practivate.adobe.com
+0.0.0.0 practivate-da1.adobe.com
 0.0.0.0 na1r.services.adobe.com
 0.0.0.0 hlrcv.stage.adobe.com
-0.0.0.0 practivate.adobe.com
-0.0.0.0 activate.adobe.com
-0.0.0.0 lm-prd-da1.licenses.adobe.com
-0.0.0.0 activate.wip4.adobe.com
-0.0.0.0 practivate-da1.adobe.com
 0.0.0.0 uds.licenses.adobe.com
 0.0.0.0 licenses.adobe.com
 0.0.0.0 license.adobe.com
@@ -142,68 +137,12 @@ ff02::3         ip6-allhosts
 0.0.0.0 activate-sea.adobe.com
 0.0.0.0 activate-sjc0.adobe.com
 0.0.0.0 ereg.adobe.com
-0.0.0.0 na1r.services.adobe.com
 0.0.0.0 activate.wip3.adobe.com
 0.0.0.0 wip3.adobe.com
 0.0.0.0 ereg.wip3.adobe.com
 0.0.0.0 wwis-dubc1-vip60.adobe.com
 0.0.0.0 prod.adobegenuine.com
 0.0.0.0 genuine.adobe.com
-0.0.0.0 activate.wip3.adobe.com
-0.0.0.0 wip3.adobe.com
-0.0.0.0 ereg.wip3.adobe.com
-0.0.0.0 wwis-dubc1-vip60.adobe.com
-0.0.0.0 licenses.adobe.com
-0.0.0.0 license.adobe.com
-0.0.0.0 helpexamples.com
-0.0.0.0 activate-sea.adobe.com
-0.0.0.0 activate-sjc0.adobe.com
-0.0.0.0 ereg.adobe.com
-0.0.0.0 activate.adobe.com
-0.0.0.0 uds.licenses.adobe.com
-0.0.0.0 lm-prd-da1.licenses.adobe.com
-# adobe end
-# These rules were added to block advertising software modules
-0.0.0.0 0.0.0.0 # fix for traceroute and netstat display anomaly
-0.0.0.0 media.opencandy.com
-0.0.0.0 cdn.opencandy.com
-0.0.0.0 tracking.opencandy.com
-0.0.0.0 api.opencandy.com
-0.0.0.0 api.recommendedsw.com
-0.0.0.0 rp.yefeneri2.com
-0.0.0.0 os.yefeneri2.com
-0.0.0.0 os2.yefeneri2.com
-0.0.0.0 installer.betterinstaller.com
-0.0.0.0 installer.filebulldog.com
-0.0.0.0 d3oxtn1x3b8d7i.cloudfront.net
-0.0.0.0 inno.bisrv.com
-0.0.0.0 nsis.bisrv.com
-0.0.0.0 cdn.file2desktop.com
-0.0.0.0 cdn.goateastcach.us
-0.0.0.0 cdn.guttastatdk.us
-0.0.0.0 cdn.inskinmedia.com
-0.0.0.0 cdn.insta.oibundles2.com
-0.0.0.0 cdn.insta.playbryte.com
-0.0.0.0 cdn.llogetfastcach.us
-0.0.0.0 cdn.montiera.com
-0.0.0.0 cdn.msdwnld.com
-0.0.0.0 cdn.mypcbackup.com
-0.0.0.0 cdn.ppdownload.com
-0.0.0.0 cdn.riceateastcach.us
-0.0.0.0 cdn.shyapotato.us
-0.0.0.0 cdn.solimba.com
-0.0.0.0 cdn.tuto4pc.com
-0.0.0.0 cdn.appround.biz
-0.0.0.0 cdn.bigspeedpro.com
-0.0.0.0 cdn.bispd.com
-0.0.0.0 cdn.bisrv.com
-0.0.0.0 cdn.cdndp.com
-0.0.0.0 cdn.download.sweetpacks.com
-0.0.0.0 cdn.dpdownload.com
-0.0.0.0 cdn.visualbee.net
-0.0.0.0 v3.paddleapi.com
-# unchecky_begin
-# These rules were added by the Unchecky program in order to block advertising software modules
 0.0.0.0 0.0.0.0 # fix for traceroute and netstat display anomaly
 0.0.0.0 tracking.opencandy.com.s3.amazonaws.com
 0.0.0.0 media.opencandy.com
@@ -242,4 +181,5 @@ ff02::3         ip6-allhosts
 0.0.0.0 cdn.download.sweetpacks.com
 0.0.0.0 cdn.dpdownload.com
 0.0.0.0 cdn.visualbee.net
-# unchecky_end
+0.0.0.0 v3.paddleapi.com
+# END BLOCKLIST
