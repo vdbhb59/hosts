@@ -11,10 +11,10 @@ Thanks to [Héctor Molinero Fernández](https://github.com/hectorm/hblock/blob/m
 
 ```sh
 curl -o /tmp/hblock 'https://raw.githubusercontent.com/vdbhb59/hosts/master/hblock' \
-  && echo '9b141d9b25dfda0165a04f0a705ad9d6840ccb13  /tmp/hblock' | shasum -c \
-  && sudo mv /tmp/hblock /usr/local/bin/hblock \
-  && sudo chown 0:0 /usr/local/bin/hblock \
-  && sudo chmod 755 /usr/local/bin/hblock
+&& echo 'a6863fa2be56b98a88e0972fd5027416020d6743  /tmp/hblock' | shasum -c \
+&& sudo mv /tmp/hblock /usr/local/bin/hblock \
+&& sudo chown 0:0 /usr/local/bin/hblock \
+&& sudo chmod 755 /usr/local/bin/hblock
 ```
 ___
 # Install systemd service and timer units
