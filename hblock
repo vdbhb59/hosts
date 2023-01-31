@@ -4,7 +4,7 @@ set -eu
 export LC_ALL='C'
 
 # Metadata.
-if [ -z "${HOSTS_VERSION+x}"    ]; then HOSTS_VERSION='3.4.0'; fi
+if [ -z "${HOSTS_VERSION+x}"    ]; then HOSTS_VERSION='3.4.1'; fi
 if [ -z "${HOSTS_AUTHOR+x}"     ]; then HOSTS_AUTHOR='FLOSSbOxIN <dev@flossboxin.org.in>'; fi
 if [ -z "${HOSTS_LICENSE+x}"    ]; then HOSTS_LICENSE='MIT, https://opensource.org/licenses/MIT'; fi
 if [ -z "${HOSTS_REPOSITORY+x}" ]; then HOSTS_REPOSITORY='https://github.com/vdbhb59/hosts/blob/master/hblock'; fi
@@ -70,7 +70,6 @@ HBLOCK_SOURCES_BUILTIN="$(cat <<-'EOF'
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/kadhosts/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/matomo.org-spammers/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/mitchellkrogza-badd-boyz-hosts/list.txt
-	https://raw.githubusercontent.com/hectorm/hmirror/master/data/pgl.yoyo.org/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/phishing.army/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/socram8888-notonmyshift/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/someonewhocares.org/list.txt
@@ -81,7 +80,6 @@ HBLOCK_SOURCES_BUILTIN="$(cat <<-'EOF'
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/ublock-badware/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/ublock-privacy/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/urlhaus/list.txt
-	https://raw.githubusercontent.com/hectorm/hmirror/master/data/winhelp2002.mvps.org/list.txt
 #	https://raw.githubusercontent.com/nextdns/metadata/master/parentalcontrol/bypass-methods
 #	https://raw.githubusercontent.com/nextdns/metadata/master/parentalcontrol/safesearch-not-supported
 #	https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/dating/domains
@@ -96,7 +94,8 @@ HBLOCK_SOURCES_BUILTIN="$(cat <<-'EOF'
 #	https://raw.githubusercontent.com/nextdns/piracy-blocklists/master/torrent-trackers
 #	https://raw.githubusercontent.com/nextdns/piracy-blocklists/master/torrent-websites
 #	https://raw.githubusercontent.com/nextdns/piracy-blocklists/master/usenet
-#	https://raw.githubusercontent.com/nextdns/piracy-blocklists/master/warez#	https://raw.githubusercontent.com/tiuxo/hosts/master/porn
+#	https://raw.githubusercontent.com/nextdns/piracy-blocklists/master/warez
+#	https://raw.githubusercontent.com/tiuxo/hosts/master/porn
 #	https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts
 #	https://raw.githubusercontent.com/mhxion/pornaway/master/hosts/porn_sites.txt
 #	https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts
