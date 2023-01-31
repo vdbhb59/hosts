@@ -11,7 +11,7 @@ Thanks to [Héctor Molinero Fernández](https://github.com/hectorm/hblock/blob/m
 
 ```sh
 curl -o /tmp/hblock 'https://raw.githubusercontent.com/vdbhb59/hosts/master/hblock' \
-&& echo 'c2137706795159e78d2f73a022e579cfd57d5f9f  /tmp/hblock' | shasum -c \
+&& echo '1bf00b9c5bafccd287a1e38f0a270f0049edee5f  /tmp/hblock' | shasum -c \
 && sudo mv /tmp/hblock /usr/local/bin/hblock \
 && sudo chown 0:0 /usr/local/bin/hblock \
 && sudo chmod 755 /usr/local/bin/hblock
@@ -75,6 +75,18 @@ Use shasum check command. Runs diff and prints results in terminal.
 
 In terminal run:<br>
 `echo 'your_expected_shasum_here_followed_by_a_space *name_of_file_to_check_after_asterisk' | shasum -c`
+
+
+___
+## Check hash algorithms: "MD2 MD4 MD5 SHA1 SHA256 SHA384 SHA512" via command prompt in Windows:
+
+For default (sha1):
+`certUtil -hashfile hosts`
+
+Place the algorithm you wish to check after the filename:
+`certUtil -hashfile hosts MD2`
+
+`certutil -hashfile hosts SHA256`
 
 ___
 ## Supported Operating Systems
