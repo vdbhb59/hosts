@@ -11,7 +11,7 @@ Thanks to [Héctor Molinero Fernández](https://github.com/hectorm/hblock/blob/m
 
 ```sh
 curl -o /tmp/hblock 'https://raw.githubusercontent.com/vdbhb59/hosts/master/hblock' \
-&& echo '1bf00b9c5bafccd287a1e38f0a270f0049edee5f  /tmp/hblock' | shasum -c \
+&& echo '6ebe27376cff2adfc712c38a0c16938b73d88b01  /tmp/hblock' | shasum -c \
 && sudo mv /tmp/hblock /usr/local/bin/hblock \
 && sudo chown 0:0 /usr/local/bin/hblock \
 && sudo chmod 755 /usr/local/bin/hblock
