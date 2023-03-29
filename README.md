@@ -3,7 +3,12 @@ Curated hosts file with various domain blocks.
 
 See ["**Source**"](https://github.com/vdbhb59/hosts#sources) below for credits and source list. Lot of hosts are based on my own digging and compatible with almost all kind of adblockers.
 
-See ["**Release Pages**"](https://github.com/vdbhb59/hosts/releases) for latest binary package as well.
+See ["**Release Pages**"](https://github.com/vdbhb59/hosts/releases) for latest scripts.
+
+___
+# Nightly/Daily builds
+
+Daily builds of the hosts file is now implemented and can be directly found [here](https://hosts.flossboxin.org.in).
 
 ___
 # Install hblock
@@ -126,34 +131,34 @@ ___
 Open TC > Top Right "3 Dots Drop Down" > Settings > Advanced options > "Hosts file URL" > Click and then copy paste the below hosts file URL.
 Then click OK to save the URL and then click "update hosts file".
 ```
-https://raw.githubusercontent.com/vdbhb59/hosts/master/hosts
+https://hosts.flossboxin.org.in/files/hosts
 ```
 
 ### Blokada
 Open Blokada > navigate to Hosts List > Click + button and then copy paste the below hosts file URL.
 Then press the Shield icon to activate.
 ```
-https://raw.githubusercontent.com/vdbhb59/hosts/master/hosts
+https://hosts.flossboxin.org.in/files/hosts
 ```
 
 ### DNS66
 Open DNS66 > swipe to Hosts > Click + button and then copy paste the below hosts file URL.
 Then press the refresh icon on the top and press the start button.
 ```
-https://raw.githubusercontent.com/vdbhb59/hosts/master/hosts
+https://hosts.flossboxin.org.in/files/hosts
 ```
 
 ### Adaway
 Open Adaway > go to Host Source > Click + button and then copy paste the below hosts file URL.
 Then Click enable ad blocking from the home menu.
 ```
-https://raw.githubusercontent.com/vdbhb59/hosts/master/hosts
+https://hosts.flossboxin.org.in/files/hosts
 ```
 
 ### DNS Filter
 Open DNS Filter > Tap on Advanced Settings > Tap on Configure Filter Update > Create a new filter by tapping on the Pencil icon > Copy paste the below hosts file URL > Tap on Active circle there > Tap on the (✔️) icon > Tap on Configure filter update to hide the menu > Tap on Advanced Settings > Tap on Restart
 ```
-https://raw.githubusercontent.com/vdbhb59/hosts/master/hosts
+https://hosts.flossboxin.org.in/files/hosts
 ```
 
 ## Recommended Whitelist
@@ -179,17 +184,18 @@ ___
 
 - __Source lists for my hosts files:__
 
-[vdbhb59 - Special Blocks](https://github.com/vdbhb59/hosts/blob/master/special_blocks.txt) | [No-Amazon](https://github.com/nickspaargaren/no-amazon) | [Hectorm](https://hblock.molinero.dev/hosts) | [Hosts Vietnam](https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts) | [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts) | [PolishFiltersTeam](https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt) | [MetaMask](https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/hosts.txt) | [Bad-Boyz](https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts) | [AnudeepND](https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt) | [Badmojr](https://badmojr.github.io/1Hosts/Pro/hosts.txt) | [Easy List](https://easylist.to/easylist/easylist.txt) | [Easy List-Privacy](https://easylist.to/easylist/easyprivacy.txt) | [Easy List-Cookie](https://easylist-downloads.adblockplus.org/easylist-cookie.txt) | [Yous](https://raw.githubusercontent.com/yous/YousList/master/hosts.txt) | [YHosts](https://raw.githubusercontent.com/vokins/yhosts/master/hosts.txt) | [GBA-Samsung](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Samsung-AdBlock.txt) | [GBA-YT](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-YouTube-AdBlock.txt) | [GBA](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt) | [GBA-Xiaomi](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt) | [GBA-Le-Eco](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-LeEco-Extension.txt) | [Gloeyisk](https://raw.githubusercontent.com/gloeyisk/SystemlessHosts/master/system/etc/hosts) | [Idoo](https://gist.githubusercontent.com/idoo/dc809ae93a3da54fb24c92185dfffffa/raw/d19b6edd63cbd9154d20dce782198920c3bb770e/hosts-yt-ads) | [XFiles-Stable](https://raw.githubusercontent.com/gioxx/xfiles/master/filtri.txt) | [XFiles-FB](https://raw.githubusercontent.com/gioxx/xfiles/master/facebook.txt) | [XFiles-SiteBlock](https://raw.githubusercontent.com/gioxx/xfiles/master/siteblock.txt) | [XFiles-UPD UBlock](https://raw.githubusercontent.com/gioxx/xfiles/master/upd.txt)
+[FLOSSbOxIN](https://hosts.flossboxin.org.in/files/hosts) | [No-Amazon](https://github.com/nickspaargaren/no-amazon) | [Hectorm](https://hblock.molinero.dev/hosts) | [Hosts Vietnam](https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts) | [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts) | [PolishFiltersTeam](https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt) | [MetaMask](https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/hosts.txt) | [Bad-Boyz](https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts) | [AnudeepND](https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt) | [Badmojr](https://badmojr.github.io/1Hosts/Pro/hosts.txt) | [Easy List](https://easylist.to/easylist/easylist.txt) | [Easy List-Privacy](https://easylist.to/easylist/easyprivacy.txt) | [Easy List-Cookie](https://easylist-downloads.adblockplus.org/easylist-cookie.txt) | [Yous](https://raw.githubusercontent.com/yous/YousList/master/hosts.txt) | [YHosts](https://raw.githubusercontent.com/vokins/yhosts/master/hosts.txt) | [GBA-Samsung](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Samsung-AdBlock.txt) | [GBA-YT](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-YouTube-AdBlock.txt) | [GBA](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt) | [GBA-Xiaomi](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt) | [GBA-Le-Eco](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-LeEco-Extension.txt) | [Gloeyisk](https://raw.githubusercontent.com/gloeyisk/SystemlessHosts/master/system/etc/hosts) | [Idoo](https://gist.githubusercontent.com/idoo/dc809ae93a3da54fb24c92185dfffffa/raw/d19b6edd63cbd9154d20dce782198920c3bb770e/hosts-yt-ads) | [XFiles-Stable](https://raw.githubusercontent.com/gioxx/xfiles/master/filtri.txt) | [XFiles-FB](https://raw.githubusercontent.com/gioxx/xfiles/master/facebook.txt) | [XFiles-SiteBlock](https://raw.githubusercontent.com/gioxx/xfiles/master/siteblock.txt) | [XFiles-UPD UBlock](https://raw.githubusercontent.com/gioxx/xfiles/master/upd.txt)
 
 ___
 - __Resultant Host File:__
 
-[`hosts`](https://raw.githubusercontent.com/vdbhb59/hosts/master/hosts)
+[`hosts`](https://hosts.flossboxin.org.in/files/hosts)
 
 ___
 - __Credits:__
 
 [vdbhb59](https://github.com/vdbhb59) |
+[FLOSSbOxIN](https://github.com/FLOSSBoxIN)
 [No-Amazon](https://github.com/nickspaargaren/no-amazon) |
 [Easylist > Easylist](https://easylist.to/index.html) |
 [HBlock > Héctor Molinero Fernández](https://github.com/hectorm) |
