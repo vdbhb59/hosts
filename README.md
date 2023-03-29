@@ -8,7 +8,8 @@ See ["**Release Pages**"](https://github.com/vdbhb59/hosts/releases) for latest 
 ___
 # Nightly/Daily builds
 
-Daily builds of the hosts file is now implemented and can be directly found [here](https://hosts.flossboxin.org.in).
+* Daily builds of the hosts file is now implemented and can be directly found [here](https://hosts.flossboxin.org.in).
+* Thanks to [Ushma](https://github.com/ushmashah8805) for the squashing, coding and nightly implementation. :)
 
 ___
 # Install hblock
