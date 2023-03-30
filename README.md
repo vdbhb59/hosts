@@ -3,7 +3,7 @@ Curated hosts file with various domain blocks.
 
 See ["**Source**"](https://github.com/vdbhb59/hosts#sources) below for credits and source list. Lot of hosts are based on my own digging and compatible with almost all kind of adblockers.
 
-See ["**Release Pages**"](https://github.com/vdbhb59/hosts/releases) for latest scripts.
+See ["**Release Pages**"](https://github.com/vdbhb59/hosts/releases) for latest sh scripts.
 
 ___
 # Nightly/Daily builds
