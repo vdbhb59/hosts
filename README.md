@@ -3,9 +3,9 @@ Curated hosts file with various domain blocks.
 
 See ["**Source**"](https://github.com/vdbhb59/hosts#sources) below for credits and source list. Lot of hosts are based on my own digging and compatible with almost all kind of adblockers.
 
-See ["**Release Pages**"](https://github.com/vdbhb59/hosts/releases) for latest shell scripts.
+Use ["**this batch file**"](https://flossboxin.org.in/scripts/hosts_install_win.bat) as the latest shell script for Windows.
 
-This readme is duplicated in my [parallel world](https://flossboxin.org.in).
+This readme is cosmetically-duplicated in my [parallel world](https://flossboxin.org.in).
 
 ___
 # Nightly/Daily builds
@@ -84,7 +84,6 @@ Use shasum check command. Runs diff and prints results in terminal.
 In terminal run:<br>
 `echo 'your_expected_shasum_here_followed_by_a_space *name_of_file_to_check_after_asterisk' | shasum -c`
 
-
 ___
 ## Check hash algorithms: "MD2 MD4 MD5 SHA1 SHA256 SHA384 SHA512" via command prompt in Windows:
 
@@ -106,7 +105,7 @@ For rooted devices, one can replace the default **hosts** file with the file of 
 
 Otherwise, if one does not wish to add it manually, one can use this host file with [`AdAway`](https://f-droid.org/en/packages/org.adaway/), a free and open-source ad-blocker for Android.
 
-***Linux:*** An open-source host file manager called [`hBlock`](https://github.com/hectorm/hBlock).
+***Linux:*** An open-source host file manager called [`hBlock`](https://github.com/vdbhb59/hosts/blob/master/hblock).
 
 ***Mac OS:*** These host files can be used with [`gasmask`](https://github.com/2ndalpha/gasmask).
 
@@ -117,6 +116,8 @@ In case the above is not working, you can try one of the following as well:
 [`SwitchHosts`](https://oldj.github.io/SwitchHosts) or [`HostsFileEditor`](https://github.com/scottlerch/HostsFileEditor)
 
 Use installer [`hostsinstaller`](https://github.com/vdbhb59/hosts/master/hosts_install_win.bat) with administrative rights in Windows.
+
+Use [`Optimizer for Windows`](https://github.com/hellzerg/optimizer/releases) (use Hosts option > Advanced editor function), the finest Windows Optimizer with/without administrative rights in Windows.
 
 ___
 **How to disable DNS CACHE services on Windows?**
@@ -175,12 +176,15 @@ Frost for Facebook (A fast and extensive third party wrapper for Facebook.)
 ```
 https://f-droid.org/app/com.pitchedapps.frost
 ```
-For YT users, use [NewPipe](https://github.com/TeamNewPipe/NewPipe)/[SkyTube](https://github.com/SkyTubeTeam/SkyTube). They are fully open sourced.
+For YT users, use [NewPipe](https://github.com/TeamNewPipe/NewPipe) / [SkyTube](https://github.com/SkyTubeTeam/SkyTube) / [FreeTubeApp](https://github.com/FreeTubeApp/FreeTube). These are fully open sourced.
 ```
 https://f-droid.org/app/org.schabi.newpipe
 ```
 ```
 https://f-droid.org/app/free.rm.skytube.oss/
+```
+```
+https://apt.izzysoft.de/fdroid/index/apk/io.freetubeapp.freetube
 ```
 ___
 ## Sources
