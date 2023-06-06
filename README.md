@@ -19,7 +19,7 @@ Thanks to [Héctor Molinero Fernández](https://github.com/hectorm/hblock/blob/m
 
 ```sh
 curl -o /tmp/hblock 'https://raw.githubusercontent.com/vdbhb59/hosts/master/hblock' \
-&& echo '6ebe27376cff2adfc712c38a0c16938b73d88b01  /tmp/hblock' | shasum -c \
+&& echo '805889FCC52334F7D8A5A600F32302E4DDE14C8B  /tmp/hblock' | shasum -c \
 && sudo mv /tmp/hblock /usr/local/bin/hblock \
 && sudo chown 0:0 /usr/local/bin/hblock \
 && sudo chmod 755 /usr/local/bin/hblock
@@ -98,7 +98,7 @@ Place the algorithm you wish to check after the filename:
 ___
 ## Supported Operating Systems
 
-***Android:*** For non-rooted devices, these host files can be used with [`Tracker Control`](https://f-droid.org/en/packages/net.kollnig.missioncontrol.fdroid/), [`DNS66`](https://f-droid.org/en/packages/org.jak_linux.dns66/), [`Blokada`](https://f-droid.org/en/packages/org.blokada.alarm/), [`Personal DNS Filter`](https://www.zenz-solutions.de/personaldnsfilter/) or [`Nebulo`](https://nebulo.app/source).
+***Android:*** For non-rooted devices, these host files can be used with [`Virtual Hosts`](https://f-droid.org/en/packages/com.github.xfalcon.vhosts/), [`Tracker Control`](https://f-droid.org/en/packages/net.kollnig.missioncontrol.fdroid/), [`DNS66`](https://f-droid.org/en/packages/org.jak_linux.dns66/), [`Blokada`](https://f-droid.org/en/packages/org.blokada.alarm/), [`Personal DNS Filter`](https://www.zenz-solutions.de/personaldnsfilter/) or [`Nebulo`](https://nebulo.app/source).
 The above softwares are free and open-source ad-blockers.
 
 For rooted devices, one can replace the default **hosts** file with the file of choice from here, after renaming the choice file to "**hosts**". Permissions should be **rw-r--r--** / **644**.
@@ -131,8 +131,14 @@ ___
 ___
 ## Usage guide
 
+### Virual Hosts
+Launch Virtual Hosts > Click on the + (plus) sign at the bottom right of the screen > Click settings (gear) icon > Under "set net hosts url", click the "remote hosts url" > A new pop-up will open > Paste "https://hosts.flossboxin.org.in/files/hosts" in the field > Click OK > It will Show Downloading > Success (will list the number of hosts entries > Click back & done.
+```
+https://hosts.flossboxin.org.in/files/hosts
+```
+
 ### TrackerControl [`TC`](https://f-droid.org/en/packages/net.kollnig.missioncontrol.fdroid/)
-Open TC > Top Right "3 Dots Drop Down" > Settings > Advanced options > "Hosts file URL" > Click and then copy paste the below hosts file URL.
+Launch TC > Top Right "3 Dots Drop Down" > Settings > Advanced options > "Hosts file URL" > Click and then copy paste the below hosts file URL.
 Then click OK to save the URL and then click "update hosts file".
 ```
 https://hosts.flossboxin.org.in/files/hosts
