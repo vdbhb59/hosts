@@ -132,7 +132,7 @@ ___
 ## Usage guide
 
 ### Virual Hosts
-Launch Virtual Hosts > Click on the + (plus) sign at the bottom right of the screen > Click settings (gear) icon > Under "set net hosts url", click the "remote hosts url" > A new pop-up will open > Paste "https://hosts.flossboxin.org.in/files/hosts" in the field > Click OK > It will Show Downloading > Success (will list the number of hosts entries > Click back & done.
+Launch Virtual Hosts > Click on the + (plus) sign at the bottom right of the screen > Click settings (gear) icon > Under "set net hosts url", click the "remote hosts url" > A new pop-up will open > Copy paste the below hosts file URL > Click OK > It will Show Downloading > Success (will list the number of hosts entries > Click back & done.
 ```
 https://hosts.flossboxin.org.in/files/hosts
 ```
