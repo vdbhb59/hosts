@@ -76,7 +76,6 @@ HBLOCK_SOURCES_BUILTIN="$(cat <<-'EOF'
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/mitchellkrogza-badd-boyz-hosts/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/pgl.yoyo.org/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/phishing.army/list.txt
-	https://raw.githubusercontent.com/hectorm/hmirror/master/data/socram8888-notonmyshift/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/someonewhocares.org/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/spam404.com/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/stevenblack/list.txt
@@ -592,7 +591,7 @@ fetchUrl() {
 	# If the protocol is "file://" we can omit the download and simply use cat.
 	if [ "${1#file://}" != "${1:?}" ]; then cat -- "${1#file://}"
 	else
-		userAgent='Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0'
+		userAgent='Mozilla/5.0 (X11; Linux x86_64; rv:115.0) Gecko/20100101 Firefox/115.0'
 		if exists curl; then curl -fsSL -A "${userAgent:?}" -- "${1:?}"
 		elif exists wget; then wget -qO- -U "${userAgent:?}" -- "${1:?}"
 		elif exists fetch; then fetch -qo- --user-agent="${userAgent:?}" -- "${1:?}"
