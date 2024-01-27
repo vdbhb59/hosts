@@ -90,7 +90,6 @@ HBLOCK_SOURCES_BUILTIN="$(cat <<-'EOF'
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/ublock-badware/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/ublock-privacy/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/urlhaus/list.txt
-	https://raw.githubusercontent.com/hectorm/hmirror/master/data/usom.gov.tr/list.txt
 	https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt
 	https://www.apps2sd.info/idm/filters.txt
 	https://filters.adtidy.org/windows/filters/1.txt?id=1
