@@ -4,7 +4,7 @@ set -eu
 export LC_ALL='C'
 
 # Metadata.
-if [ -z "${HOSTS_VERSION+x}"    ]; then HOSTS_VERSION='3.4.3'; fi
+if [ -z "${HOSTS_VERSION+x}"    ]; then HOSTS_VERSION='3.4.4'; fi
 if [ -z "${HOSTS_AUTHOR+x}"     ]; then HOSTS_AUTHOR='FLOSSbOxIN <dev@flossboxin.org.in>'; fi
 if [ -z "${HOSTS_LICENSE+x}"    ]; then HOSTS_LICENSE='MIT, https://opensource.org/licenses/MIT'; fi
 if [ -z "${HOSTS_REPOSITORY+x}" ]; then HOSTS_REPOSITORY='https://github.com/vdbhb59/hosts/blob/master/hblock'; fi
