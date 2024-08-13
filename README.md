@@ -5,7 +5,7 @@ See ["**Source**"](https://github.com/vdbhb59/hosts#sources) below for credits a
 
 Use ["**this batch file**"](https://flossboxin.org.in/scripts/hosts_install_win.bat) as the latest shell script for Windows.
 
-This readme is cosmetically-duplicated in my [parallel world](https://flossboxin.org.in).
+This readme is cosmetically-duplicated in my [parallel world](https://host.flossboxin.org.in).
 
 ___
 # Nightly/Daily builds
