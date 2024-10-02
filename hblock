@@ -633,7 +633,8 @@ main() {
 							sleep 1
 						fi
 					fi
-				done
+				fi
+			done
 			} &
 		done < "${sourcesUrlFile:?}"
 		wait
